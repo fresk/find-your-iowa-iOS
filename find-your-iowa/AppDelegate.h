@@ -12,4 +12,7 @@
 
 @property (strong, nonatomic) UIWindow *window;
 
++ (NSDictionary*) loadJsonFile: (NSString*)filename ;
++ (UIImage *) imageWithView:(UIView *)view;
+
 @end

@@ -14,13 +14,16 @@
 		12BCE4F6185614340032F7E8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 12BCE4F5185614340032F7E8 /* main.m */; };
 		12BCE4FA185614340032F7E8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 12BCE4F9185614340032F7E8 /* AppDelegate.m */; };
 		12BCE4FD185614340032F7E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12BCE4FB185614340032F7E8 /* Main.storyboard */; };
-		12BCE500185614340032F7E8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12BCE4FF185614340032F7E8 /* ViewController.m */; };
+		12BCE500185614340032F7E8 /* DiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12BCE4FF185614340032F7E8 /* DiscoverViewController.m */; };
 		12BCE502185614340032F7E8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12BCE501185614340032F7E8 /* Images.xcassets */; };
 		12BCE509185614340032F7E8 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12BCE508185614340032F7E8 /* XCTest.framework */; };
 		12BCE50A185614340032F7E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12BCE4E9185614340032F7E8 /* Foundation.framework */; };
 		12BCE50B185614340032F7E8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12BCE4ED185614340032F7E8 /* UIKit.framework */; };
-		12BCE513185614340032F7E8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 12BCE511185614340032F7E8 /* InfoPlist.strings */; };
-		12BCE515185614340032F7E8 /* find_your_iowaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 12BCE514185614340032F7E8 /* find_your_iowaTests.m */; };
+		12BCE523185620850032F7E8 /* locations.db in Resources */ = {isa = PBXBuildFile; fileRef = 12BCE522185620850032F7E8 /* locations.db */; };
+		12BCE526185622C30032F7E8 /* location_sql.m in Sources */ = {isa = PBXBuildFile; fileRef = 12BCE525185622C30032F7E8 /* location_sql.m */; };
+		12BCE529185626070032F7E8 /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 12BCE528185626070032F7E8 /* Utils.m */; };
+		12BCE52B185628250032F7E8 /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12BCE52A185628250032F7E8 /* SDWebImage.framework */; };
+		12BCE52D18562F690032F7E8 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 12BCE52C18562F690032F7E8 /* libsqlite3.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +48,18 @@
 		12BCE4F8185614340032F7E8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		12BCE4F9185614340032F7E8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		12BCE4FC185614340032F7E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		12BCE4FE185614340032F7E8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		12BCE4FF185614340032F7E8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		12BCE4FE185614340032F7E8 /* DiscoverViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DiscoverViewController.h; sourceTree = "<group>"; };
+		12BCE4FF185614340032F7E8 /* DiscoverViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DiscoverViewController.m; sourceTree = "<group>"; };
 		12BCE501185614340032F7E8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		12BCE507185614340032F7E8 /* find-your-iowaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "find-your-iowaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		12BCE508185614340032F7E8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		12BCE510185614340032F7E8 /* find-your-iowaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "find-your-iowaTests-Info.plist"; sourceTree = "<group>"; };
-		12BCE512185614340032F7E8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		12BCE514185614340032F7E8 /* find_your_iowaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = find_your_iowaTests.m; sourceTree = "<group>"; };
+		12BCE522185620850032F7E8 /* locations.db */ = {isa = PBXFileReference; lastKnownFileType = file; name = locations.db; path = data/locations.db; sourceTree = "<group>"; };
+		12BCE524185622910032F7E8 /* locations_sql.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = locations_sql.h; sourceTree = "<group>"; };
+		12BCE525185622C30032F7E8 /* location_sql.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = location_sql.m; sourceTree = "<group>"; };
+		12BCE527185626070032F7E8 /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		12BCE528185626070032F7E8 /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
+		12BCE52A185628250032F7E8 /* SDWebImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDWebImage.framework; path = "find-your-iowa/SDWebImage.framework"; sourceTree = "<group>"; };
+		12BCE52C18562F690032F7E8 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +67,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12BCE52D18562F690032F7E8 /* libsqlite3.dylib in Frameworks */,
 				12BCE4EC185614340032F7E8 /* CoreGraphics.framework in Frameworks */,
 				12BCE4EE185614340032F7E8 /* UIKit.framework in Frameworks */,
+				12BCE52B185628250032F7E8 /* SDWebImage.framework in Frameworks */,
 				12BCE4EA185614340032F7E8 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -82,8 +91,8 @@
 		12BCE4DD185614340032F7E8 = {
 			isa = PBXGroup;
 			children = (
+				12BCE51E18561FCB0032F7E8 /* db */,
 				12BCE4EF185614340032F7E8 /* find-your-iowa */,
-				12BCE50E185614340032F7E8 /* find-your-iowaTests */,
 				12BCE4E8185614340032F7E8 /* Frameworks */,
 				12BCE4E7185614340032F7E8 /* Products */,
 			);
@@ -101,6 +110,8 @@
 		12BCE4E8185614340032F7E8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				12BCE52C18562F690032F7E8 /* libsqlite3.dylib */,
+				12BCE52A185628250032F7E8 /* SDWebImage.framework */,
 				12BCE4E9185614340032F7E8 /* Foundation.framework */,
 				12BCE4EB185614340032F7E8 /* CoreGraphics.framework */,
 				12BCE4ED185614340032F7E8 /* UIKit.framework */,
@@ -112,13 +123,15 @@
 		12BCE4EF185614340032F7E8 /* find-your-iowa */ = {
 			isa = PBXGroup;
 			children = (
+				12BCE4FB185614340032F7E8 /* Main.storyboard */,
 				12BCE4F8185614340032F7E8 /* AppDelegate.h */,
 				12BCE4F9185614340032F7E8 /* AppDelegate.m */,
-				12BCE4FB185614340032F7E8 /* Main.storyboard */,
-				12BCE4FE185614340032F7E8 /* ViewController.h */,
-				12BCE4FF185614340032F7E8 /* ViewController.m */,
+				12BCE4FE185614340032F7E8 /* DiscoverViewController.h */,
+				12BCE4FF185614340032F7E8 /* DiscoverViewController.m */,
 				12BCE501185614340032F7E8 /* Images.xcassets */,
 				12BCE4F0185614340032F7E8 /* Supporting Files */,
+				12BCE527185626070032F7E8 /* Utils.h */,
+				12BCE528185626070032F7E8 /* Utils.m */,
 			);
 			path = "find-your-iowa";
 			sourceTree = "<group>";
@@ -134,22 +147,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		12BCE50E185614340032F7E8 /* find-your-iowaTests */ = {
+		12BCE51E18561FCB0032F7E8 /* db */ = {
 			isa = PBXGroup;
 			children = (
-				12BCE514185614340032F7E8 /* find_your_iowaTests.m */,
-				12BCE50F185614340032F7E8 /* Supporting Files */,
+				12BCE522185620850032F7E8 /* locations.db */,
+				12BCE524185622910032F7E8 /* locations_sql.h */,
+				12BCE525185622C30032F7E8 /* location_sql.m */,
 			);
-			path = "find-your-iowaTests";
-			sourceTree = "<group>";
-		};
-		12BCE50F185614340032F7E8 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				12BCE510185614340032F7E8 /* find-your-iowaTests-Info.plist */,
-				12BCE511185614340032F7E8 /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
+			name = db;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,6 +204,9 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Thomas Hansen";
 				TargetAttributes = {
+					12BCE4E5185614340032F7E8 = {
+						DevelopmentTeam = Q7ET952695;
+					};
 					12BCE506185614340032F7E8 = {
 						TestTargetID = 12BCE4E5185614340032F7E8;
 					};
@@ -228,6 +236,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12BCE523185620850032F7E8 /* locations.db in Resources */,
 				12BCE502185614340032F7E8 /* Images.xcassets in Resources */,
 				12BCE4F4185614340032F7E8 /* InfoPlist.strings in Resources */,
 				12BCE4FD185614340032F7E8 /* Main.storyboard in Resources */,
@@ -238,7 +247,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				12BCE513185614340032F7E8 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,9 +257,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				12BCE500185614340032F7E8 /* ViewController.m in Sources */,
+				12BCE500185614340032F7E8 /* DiscoverViewController.m in Sources */,
 				12BCE4FA185614340032F7E8 /* AppDelegate.m in Sources */,
 				12BCE4F6185614340032F7E8 /* main.m in Sources */,
+				12BCE529185626070032F7E8 /* Utils.m in Sources */,
+				12BCE526185622C30032F7E8 /* location_sql.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,7 +269,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				12BCE515185614340032F7E8 /* find_your_iowaTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,14 +297,6 @@
 				12BCE4FC185614340032F7E8 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		12BCE511185614340032F7E8 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				12BCE512185614340032F7E8 /* en */,
-			);
-			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -378,10 +379,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/tehansen/code/find-your-iowa/find-your-iowa",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "find-your-iowa/find-your-iowa-Prefix.pch";
 				INFOPLIST_FILE = "find-your-iowa/find-your-iowa-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -391,10 +399,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/tehansen/code/find-your-iowa/find-your-iowa",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "find-your-iowa/find-your-iowa-Prefix.pch";
 				INFOPLIST_FILE = "find-your-iowa/find-your-iowa-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -460,6 +475,7 @@
 				12BCE51A185614340032F7E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		12BCE51B185614340032F7E8 /* Build configuration list for PBXNativeTarget "find-your-iowaTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +484,7 @@
 				12BCE51D185614340032F7E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -10,6 +10,40 @@
 
 @implementation AppDelegate
 
+
+
++ (NSDictionary*) loadJsonFile: (NSString*)filename {
+    NSError *err;
+    NSString *filePath = [[NSBundle mainBundle] pathForResource:filename ofType:@"json"];
+    NSString *jsonString = [[NSString alloc] initWithContentsOfFile:filePath encoding:NSUTF8StringEncoding error:&err];
+    NSLog(@"read Error: %@", err ) ;
+    if (err)
+        return nil;
+    NSDictionary *json = [NSJSONSerialization JSONObjectWithData:[jsonString dataUsingEncoding:NSUTF8StringEncoding] options:kNilOptions error:&err];
+    NSLog(@"json Error: %@", err ) ;
+    if (err)
+        return nil;
+    return json;
+}
+
+
++ (UIImage *) imageWithView:(UIView *)view
+{
+    UIGraphicsBeginImageContextWithOptions(view.bounds.size, view.opaque, 0.0);
+    [view.layer renderInContext:UIGraphicsGetCurrentContext()];
+    
+    UIImage * img = UIGraphicsGetImageFromCurrentImageContext();
+    
+    UIGraphicsEndImageContext();
+    
+    return img;
+}
+
+
+
+
+// Application Delegate functions /////////////////////////////////////////////////////////////////////////////////
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
