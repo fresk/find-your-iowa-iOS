@@ -11,8 +11,10 @@
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+@property (strong, nonatomic) NSMutableDictionary* userData;
+
 
 + (NSDictionary*) loadJsonFile: (NSString*)filename ;
 + (UIImage *) imageWithView:(UIView *)view;
-
+- (BOOL) saveUserData;
 @end

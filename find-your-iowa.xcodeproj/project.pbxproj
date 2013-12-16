@@ -7,6 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		122BD6A11859704F00065AC8 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 122BD6A01859704F00065AC8 /* MapViewController.m */; };
+		122BD79A185A24B900065AC8 /* FilterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 122BD799185A24B900065AC8 /* FilterViewController.m */; };
+		122BD79D185A33D100065AC8 /* ContextMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 122BD79C185A33D100065AC8 /* ContextMenuViewController.m */; };
+		124C8BB61858E80C00E2810E /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = 124C8BB51858E80C00E2810E /* UIImage+Resize.m */; };
+		124C8BB91858EAE600E2810E /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = 124C8BB81858EAE600E2810E /* Location.m */; };
+		124C8BDC1858EEF900E2810E /* MKAnnotationView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 124C8BC01858EEF900E2810E /* MKAnnotationView+WebCache.m */; };
+		124C8BDD1858EEF900E2810E /* NSData+GIF.m in Sources */ = {isa = PBXBuildFile; fileRef = 124C8BC21858EEF900E2810E /* NSData+GIF.m */; };
+		124C8BDE1858EEF900E2810E /* SDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 124C8BC41858EEF900E2810E /* SDImageCache.m */; };
+		124C8BDF1858EEF900E2810E /* SDWebImageCompat.m in Sources */ = {isa = PBXBuildFile; fileRef = 124C8BC61858EEF900E2810E /* SDWebImageCompat.m */; };
+		124C8BE01858EEF900E2810E /* SDWebImageDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 124C8BC81858EEF900E2810E /* SDWebImageDecoder.m */; };
+		124C8BE11858EEF900E2810E /* SDWebImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 124C8BCA1858EEF900E2810E /* SDWebImageDownloader.m */; };
+		124C8BE21858EEF900E2810E /* SDWebImageDownloaderOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 124C8BCC1858EEF900E2810E /* SDWebImageDownloaderOperation.m */; };
+		124C8BE31858EEF900E2810E /* SDWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 124C8BCE1858EEF900E2810E /* SDWebImageManager.m */; };
+		124C8BE41858EEF900E2810E /* SDWebImagePrefetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 124C8BD11858EEF900E2810E /* SDWebImagePrefetcher.m */; };
+		124C8BE51858EEF900E2810E /* UIButton+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 124C8BD31858EEF900E2810E /* UIButton+WebCache.m */; };
+		124C8BE61858EEF900E2810E /* UIImage+GIF.m in Sources */ = {isa = PBXBuildFile; fileRef = 124C8BD51858EEF900E2810E /* UIImage+GIF.m */; };
+		124C8BE71858EEF900E2810E /* UIImage+MultiFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 124C8BD71858EEF900E2810E /* UIImage+MultiFormat.m */; };
+		124C8BE81858EEF900E2810E /* UIImage+WebP.m in Sources */ = {isa = PBXBuildFile; fileRef = 124C8BD91858EEF900E2810E /* UIImage+WebP.m */; };
+		124C8BE91858EEF900E2810E /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 124C8BDB1858EEF900E2810E /* UIImageView+WebCache.m */; };
+		124C8BEC1858F9A000E2810E /* ImagePager.m in Sources */ = {isa = PBXBuildFile; fileRef = 124C8BEB1858F9A000E2810E /* ImagePager.m */; };
+		124C8BEF1858FC9100E2810E /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 124C8BEE1858FC9100E2810E /* DetailViewController.m */; };
+		124C8BF11859460A00E2810E /* Reveal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 124C8BF01859460A00E2810E /* Reveal.framework */; };
+		124C8BF41859645300E2810E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 124C8BF31859645300E2810E /* ViewController.m */; };
 		12BCE4EA185614340032F7E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12BCE4E9185614340032F7E8 /* Foundation.framework */; };
 		12BCE4EC185614340032F7E8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12BCE4EB185614340032F7E8 /* CoreGraphics.framework */; };
 		12BCE4EE185614340032F7E8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12BCE4ED185614340032F7E8 /* UIKit.framework */; };
@@ -14,29 +37,173 @@
 		12BCE4F6185614340032F7E8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 12BCE4F5185614340032F7E8 /* main.m */; };
 		12BCE4FA185614340032F7E8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 12BCE4F9185614340032F7E8 /* AppDelegate.m */; };
 		12BCE4FD185614340032F7E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12BCE4FB185614340032F7E8 /* Main.storyboard */; };
-		12BCE500185614340032F7E8 /* DiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12BCE4FF185614340032F7E8 /* DiscoverViewController.m */; };
+		12BCE500185614340032F7E8 /* FeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12BCE4FF185614340032F7E8 /* FeedViewController.m */; };
 		12BCE502185614340032F7E8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12BCE501185614340032F7E8 /* Images.xcassets */; };
-		12BCE509185614340032F7E8 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12BCE508185614340032F7E8 /* XCTest.framework */; };
-		12BCE50A185614340032F7E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12BCE4E9185614340032F7E8 /* Foundation.framework */; };
-		12BCE50B185614340032F7E8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12BCE4ED185614340032F7E8 /* UIKit.framework */; };
 		12BCE523185620850032F7E8 /* locations.db in Resources */ = {isa = PBXBuildFile; fileRef = 12BCE522185620850032F7E8 /* locations.db */; };
-		12BCE526185622C30032F7E8 /* location_sql.m in Sources */ = {isa = PBXBuildFile; fileRef = 12BCE525185622C30032F7E8 /* location_sql.m */; };
 		12BCE529185626070032F7E8 /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 12BCE528185626070032F7E8 /* Utils.m */; };
-		12BCE52B185628250032F7E8 /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12BCE52A185628250032F7E8 /* SDWebImage.framework */; };
 		12BCE52D18562F690032F7E8 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 12BCE52C18562F690032F7E8 /* libsqlite3.dylib */; };
+		12BCE5301856366C0032F7E8 /* location_sql.m in Sources */ = {isa = PBXBuildFile; fileRef = 12BCE52E1856366C0032F7E8 /* location_sql.m */; };
+		12D09E45185BA2AD005CDE82 /* marker-amphitheater.png in Resources */ = {isa = PBXBuildFile; fileRef = 12D09E11185BA2AD005CDE82 /* marker-amphitheater.png */; };
+		12D09E46185BA2AD005CDE82 /* marker-amphitheater@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 12D09E12185BA2AD005CDE82 /* marker-amphitheater@2x.png */; };
+		12D09E47185BA2AD005CDE82 /* marker-art.png in Resources */ = {isa = PBXBuildFile; fileRef = 12D09E13185BA2AD005CDE82 /* marker-art.png */; };
+		12D09E48185BA2AD005CDE82 /* marker-art@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 12D09E14185BA2AD005CDE82 /* marker-art@2x.png */; };
+		12D09E49185BA2AD005CDE82 /* marker-arts_council.png in Resources */ = {isa = PBXBuildFile; fileRef = 12D09E15185BA2AD005CDE82 /* marker-arts_council.png */; };
+		12D09E4A185BA2AD005CDE82 /* marker-arts_council@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 12D09E16185BA2AD005CDE82 /* marker-arts_council@2x.png */; };
+		12D09E4B185BA2AD005CDE82 /* marker-barn.png in Resources */ = {isa = PBXBuildFile; fileRef = 12D09E17185BA2AD005CDE82 /* marker-barn.png */; };
+		12D09E4C185BA2AD005CDE82 /* marker-barn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 12D09E18185BA2AD005CDE82 /* marker-barn@2x.png */; };
+		12D09E4D185BA2AD005CDE82 /* marker-botany.png in Resources */ = {isa = PBXBuildFile; fileRef = 12D09E19185BA2AD005CDE82 /* marker-botany.png */; };
+		12D09E4E185BA2AD005CDE82 /* marker-botany@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 12D09E1A185BA2AD005CDE82 /* marker-botany@2x.png */; };
+		12D09E4F185BA2AD005CDE82 /* marker-cultural_district.png in Resources */ = {isa = PBXBuildFile; fileRef = 12D09E1B185BA2AD005CDE82 /* marker-cultural_district.png */; };
+		12D09E50185BA2AD005CDE82 /* marker-cultural_district@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 12D09E1C185BA2AD005CDE82 /* marker-cultural_district@2x.png */; };
+		12D09E51185BA2AD005CDE82 /* marker-famous_iowan.png in Resources */ = {isa = PBXBuildFile; fileRef = 12D09E1D185BA2AD005CDE82 /* marker-famous_iowan.png */; };
+		12D09E52185BA2AD005CDE82 /* marker-famous_iowan@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 12D09E1E185BA2AD005CDE82 /* marker-famous_iowan@2x.png */; };
+		12D09E53185BA2AD005CDE82 /* marker-historic_site.png in Resources */ = {isa = PBXBuildFile; fileRef = 12D09E1F185BA2AD005CDE82 /* marker-historic_site.png */; };
+		12D09E54185BA2AD005CDE82 /* marker-historic_site@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 12D09E20185BA2AD005CDE82 /* marker-historic_site@2x.png */; };
+		12D09E55185BA2AD005CDE82 /* marker-historical_society.png in Resources */ = {isa = PBXBuildFile; fileRef = 12D09E21185BA2AD005CDE82 /* marker-historical_society.png */; };
+		12D09E56185BA2AD005CDE82 /* marker-historical_society@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 12D09E22185BA2AD005CDE82 /* marker-historical_society@2x.png */; };
+		12D09E57185BA2AD005CDE82 /* marker-iowa_award.png in Resources */ = {isa = PBXBuildFile; fileRef = 12D09E23185BA2AD005CDE82 /* marker-iowa_award.png */; };
+		12D09E58185BA2AD005CDE82 /* marker-iowa_award@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 12D09E24185BA2AD005CDE82 /* marker-iowa_award@2x.png */; };
+		12D09E59185BA2AD005CDE82 /* marker-iowa_great_place.png in Resources */ = {isa = PBXBuildFile; fileRef = 12D09E25185BA2AD005CDE82 /* marker-iowa_great_place.png */; };
+		12D09E5A185BA2AD005CDE82 /* marker-iowa_great_place@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 12D09E26185BA2AD005CDE82 /* marker-iowa_great_place@2x.png */; };
+		12D09E5B185BA2AD005CDE82 /* marker-local_government.png in Resources */ = {isa = PBXBuildFile; fileRef = 12D09E27185BA2AD005CDE82 /* marker-local_government.png */; };
+		12D09E5C185BA2AD005CDE82 /* marker-local_government@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 12D09E28185BA2AD005CDE82 /* marker-local_government@2x.png */; };
+		12D09E5D185BA2AD005CDE82 /* marker-local_landmark.png in Resources */ = {isa = PBXBuildFile; fileRef = 12D09E29185BA2AD005CDE82 /* marker-local_landmark.png */; };
+		12D09E5E185BA2AD005CDE82 /* marker-local_landmark@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 12D09E2A185BA2AD005CDE82 /* marker-local_landmark@2x.png */; };
+		12D09E5F185BA2AD005CDE82 /* marker-medal_of_honor.png in Resources */ = {isa = PBXBuildFile; fileRef = 12D09E2B185BA2AD005CDE82 /* marker-medal_of_honor.png */; };
+		12D09E60185BA2AD005CDE82 /* marker-medal_of_honor@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 12D09E2C185BA2AD005CDE82 /* marker-medal_of_honor@2x.png */; };
+		12D09E61185BA2AD005CDE82 /* marker-movie.png in Resources */ = {isa = PBXBuildFile; fileRef = 12D09E2D185BA2AD005CDE82 /* marker-movie.png */; };
+		12D09E62185BA2AD005CDE82 /* marker-movie@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 12D09E2E185BA2AD005CDE82 /* marker-movie@2x.png */; };
+		12D09E63185BA2AD005CDE82 /* marker-museum.png in Resources */ = {isa = PBXBuildFile; fileRef = 12D09E2F185BA2AD005CDE82 /* marker-museum.png */; };
+		12D09E64185BA2AD005CDE82 /* marker-museum@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 12D09E30185BA2AD005CDE82 /* marker-museum@2x.png */; };
+		12D09E65185BA2AD005CDE82 /* marker-national_historic_landmark.png in Resources */ = {isa = PBXBuildFile; fileRef = 12D09E31185BA2AD005CDE82 /* marker-national_historic_landmark.png */; };
+		12D09E66185BA2AD005CDE82 /* marker-national_historic_landmark@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 12D09E32185BA2AD005CDE82 /* marker-national_historic_landmark@2x.png */; };
+		12D09E67185BA2AD005CDE82 /* marker-national_historical_register.png in Resources */ = {isa = PBXBuildFile; fileRef = 12D09E33185BA2AD005CDE82 /* marker-national_historical_register.png */; };
+		12D09E68185BA2AD005CDE82 /* marker-national_historical_register@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 12D09E34185BA2AD005CDE82 /* marker-national_historical_register@2x.png */; };
+		12D09E69185BA2AD005CDE82 /* marker-performance.png in Resources */ = {isa = PBXBuildFile; fileRef = 12D09E35185BA2AD005CDE82 /* marker-performance.png */; };
+		12D09E6A185BA2AD005CDE82 /* marker-performance@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 12D09E36185BA2AD005CDE82 /* marker-performance@2x.png */; };
+		12D09E6B185BA2AD005CDE82 /* marker-riverwalk.png in Resources */ = {isa = PBXBuildFile; fileRef = 12D09E37185BA2AD005CDE82 /* marker-riverwalk.png */; };
+		12D09E6C185BA2AD005CDE82 /* marker-riverwalk@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 12D09E38185BA2AD005CDE82 /* marker-riverwalk@2x.png */; };
+		12D09E6D185BA2AD005CDE82 /* marker-scenic_byway.png in Resources */ = {isa = PBXBuildFile; fileRef = 12D09E39185BA2AD005CDE82 /* marker-scenic_byway.png */; };
+		12D09E6E185BA2AD005CDE82 /* marker-scenic_byway@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 12D09E3A185BA2AD005CDE82 /* marker-scenic_byway@2x.png */; };
+		12D09E6F185BA2AD005CDE82 /* marker-science.png in Resources */ = {isa = PBXBuildFile; fileRef = 12D09E3B185BA2AD005CDE82 /* marker-science.png */; };
+		12D09E70185BA2AD005CDE82 /* marker-science@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 12D09E3C185BA2AD005CDE82 /* marker-science@2x.png */; };
+		12D09E71185BA2AD005CDE82 /* marker-theater.png in Resources */ = {isa = PBXBuildFile; fileRef = 12D09E3D185BA2AD005CDE82 /* marker-theater.png */; };
+		12D09E72185BA2AD005CDE82 /* marker-theater@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 12D09E3E185BA2AD005CDE82 /* marker-theater@2x.png */; };
+		12D09E73185BA2AD005CDE82 /* marker-underground_railroad.png in Resources */ = {isa = PBXBuildFile; fileRef = 12D09E3F185BA2AD005CDE82 /* marker-underground_railroad.png */; };
+		12D09E74185BA2AD005CDE82 /* marker-underground_railroad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 12D09E40185BA2AD005CDE82 /* marker-underground_railroad@2x.png */; };
+		12D09E75185BA2AD005CDE82 /* marker-university.png in Resources */ = {isa = PBXBuildFile; fileRef = 12D09E41185BA2AD005CDE82 /* marker-university.png */; };
+		12D09E76185BA2AD005CDE82 /* marker-university@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 12D09E42185BA2AD005CDE82 /* marker-university@2x.png */; };
+		12D09E77185BA2AD005CDE82 /* marker-zoo.png in Resources */ = {isa = PBXBuildFile; fileRef = 12D09E43185BA2AD005CDE82 /* marker-zoo.png */; };
+		12D09E78185BA2AD005CDE82 /* marker-zoo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 12D09E44185BA2AD005CDE82 /* marker-zoo@2x.png */; };
+		12E0995D185EFF20001DFF94 /* marker-amphitheater.png in Resources */ = {isa = PBXBuildFile; fileRef = 12E09922185EFF20001DFF94 /* marker-amphitheater.png */; };
+		12E0995E185EFF20001DFF94 /* marker-amphitheater@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 12E09923185EFF20001DFF94 /* marker-amphitheater@2x.png */; };
+		12E0995F185EFF20001DFF94 /* marker-art.png in Resources */ = {isa = PBXBuildFile; fileRef = 12E09924185EFF20001DFF94 /* marker-art.png */; };
+		12E09960185EFF20001DFF94 /* marker-art@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 12E09925185EFF20001DFF94 /* marker-art@2x.png */; };
+		12E09961185EFF20001DFF94 /* marker-arts_council.png in Resources */ = {isa = PBXBuildFile; fileRef = 12E09926185EFF20001DFF94 /* marker-arts_council.png */; };
+		12E09962185EFF20001DFF94 /* marker-arts_council@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 12E09927185EFF20001DFF94 /* marker-arts_council@2x.png */; };
+		12E09963185EFF20001DFF94 /* marker-barn.png in Resources */ = {isa = PBXBuildFile; fileRef = 12E09928185EFF20001DFF94 /* marker-barn.png */; };
+		12E09964185EFF20001DFF94 /* marker-barn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 12E09929185EFF20001DFF94 /* marker-barn@2x.png */; };
+		12E09965185EFF20001DFF94 /* marker-botany.png in Resources */ = {isa = PBXBuildFile; fileRef = 12E0992A185EFF20001DFF94 /* marker-botany.png */; };
+		12E09966185EFF20001DFF94 /* marker-botany@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 12E0992B185EFF20001DFF94 /* marker-botany@2x.png */; };
+		12E09967185EFF20001DFF94 /* marker-cultural_district.png in Resources */ = {isa = PBXBuildFile; fileRef = 12E0992C185EFF20001DFF94 /* marker-cultural_district.png */; };
+		12E09968185EFF20001DFF94 /* marker-cultural_district@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 12E0992D185EFF20001DFF94 /* marker-cultural_district@2x.png */; };
+		12E09969185EFF20001DFF94 /* marker-famous_iowan.png in Resources */ = {isa = PBXBuildFile; fileRef = 12E0992E185EFF20001DFF94 /* marker-famous_iowan.png */; };
+		12E0996A185EFF20001DFF94 /* marker-famous_iowan@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 12E0992F185EFF20001DFF94 /* marker-famous_iowan@2x.png */; };
+		12E0996B185EFF20001DFF94 /* marker-historic_site.png in Resources */ = {isa = PBXBuildFile; fileRef = 12E09930185EFF20001DFF94 /* marker-historic_site.png */; };
+		12E0996C185EFF20001DFF94 /* marker-historic_site@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 12E09931185EFF20001DFF94 /* marker-historic_site@2x.png */; };
+		12E0996D185EFF20001DFF94 /* marker-historical_society.png in Resources */ = {isa = PBXBuildFile; fileRef = 12E09932185EFF20001DFF94 /* marker-historical_society.png */; };
+		12E0996E185EFF20001DFF94 /* marker-historical_society@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 12E09933185EFF20001DFF94 /* marker-historical_society@2x.png */; };
+		12E0996F185EFF20001DFF94 /* marker-iowa_award.png in Resources */ = {isa = PBXBuildFile; fileRef = 12E09934185EFF20001DFF94 /* marker-iowa_award.png */; };
+		12E09970185EFF20001DFF94 /* marker-iowa_award@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 12E09935185EFF20001DFF94 /* marker-iowa_award@2x.png */; };
+		12E09971185EFF20001DFF94 /* marker-iowa_great_place.png in Resources */ = {isa = PBXBuildFile; fileRef = 12E09936185EFF20001DFF94 /* marker-iowa_great_place.png */; };
+		12E09972185EFF20001DFF94 /* marker-iowa_great_place@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 12E09937185EFF20001DFF94 /* marker-iowa_great_place@2x.png */; };
+		12E09973185EFF20001DFF94 /* marker-local_government.png in Resources */ = {isa = PBXBuildFile; fileRef = 12E09938185EFF20001DFF94 /* marker-local_government.png */; };
+		12E09974185EFF20001DFF94 /* marker-local_government@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 12E09939185EFF20001DFF94 /* marker-local_government@2x.png */; };
+		12E09975185EFF20001DFF94 /* marker-local_landmark.png in Resources */ = {isa = PBXBuildFile; fileRef = 12E0993A185EFF20001DFF94 /* marker-local_landmark.png */; };
+		12E09976185EFF20001DFF94 /* marker-local_landmark@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 12E0993B185EFF20001DFF94 /* marker-local_landmark@2x.png */; };
+		12E09977185EFF20001DFF94 /* marker-medal_of_honor.png in Resources */ = {isa = PBXBuildFile; fileRef = 12E0993C185EFF20001DFF94 /* marker-medal_of_honor.png */; };
+		12E09978185EFF20001DFF94 /* marker-medal_of_honor@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 12E0993D185EFF20001DFF94 /* marker-medal_of_honor@2x.png */; };
+		12E09979185EFF20001DFF94 /* marker-movie.png in Resources */ = {isa = PBXBuildFile; fileRef = 12E0993E185EFF20001DFF94 /* marker-movie.png */; };
+		12E0997A185EFF20001DFF94 /* marker-movie@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 12E0993F185EFF20001DFF94 /* marker-movie@2x.png */; };
+		12E0997B185EFF20001DFF94 /* marker-museum.png in Resources */ = {isa = PBXBuildFile; fileRef = 12E09940185EFF20001DFF94 /* marker-museum.png */; };
+		12E0997C185EFF20001DFF94 /* marker-museum@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 12E09941185EFF20001DFF94 /* marker-museum@2x.png */; };
+		12E0997D185EFF20001DFF94 /* marker-national_historic_landmark.png in Resources */ = {isa = PBXBuildFile; fileRef = 12E09942185EFF20001DFF94 /* marker-national_historic_landmark.png */; };
+		12E0997E185EFF20001DFF94 /* marker-national_historic_landmark@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 12E09943185EFF20001DFF94 /* marker-national_historic_landmark@2x.png */; };
+		12E0997F185EFF20001DFF94 /* marker-national_historical_register.png in Resources */ = {isa = PBXBuildFile; fileRef = 12E09944185EFF20001DFF94 /* marker-national_historical_register.png */; };
+		12E09980185EFF20001DFF94 /* marker-national_historical_register@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 12E09945185EFF20001DFF94 /* marker-national_historical_register@2x.png */; };
+		12E09981185EFF20001DFF94 /* marker-performance.png in Resources */ = {isa = PBXBuildFile; fileRef = 12E09946185EFF20001DFF94 /* marker-performance.png */; };
+		12E09982185EFF20001DFF94 /* marker-performance@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 12E09947185EFF20001DFF94 /* marker-performance@2x.png */; };
+		12E09983185EFF20001DFF94 /* marker-riverwalk.png in Resources */ = {isa = PBXBuildFile; fileRef = 12E09948185EFF20001DFF94 /* marker-riverwalk.png */; };
+		12E09984185EFF20001DFF94 /* marker-riverwalk@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 12E09949185EFF20001DFF94 /* marker-riverwalk@2x.png */; };
+		12E09985185EFF20001DFF94 /* marker-scenic_byway.png in Resources */ = {isa = PBXBuildFile; fileRef = 12E0994A185EFF20001DFF94 /* marker-scenic_byway.png */; };
+		12E09986185EFF20001DFF94 /* marker-scenic_byway@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 12E0994B185EFF20001DFF94 /* marker-scenic_byway@2x.png */; };
+		12E09987185EFF20001DFF94 /* marker-science.png in Resources */ = {isa = PBXBuildFile; fileRef = 12E0994C185EFF20001DFF94 /* marker-science.png */; };
+		12E09988185EFF20001DFF94 /* marker-science@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 12E0994D185EFF20001DFF94 /* marker-science@2x.png */; };
+		12E09989185EFF20001DFF94 /* marker-theater.png in Resources */ = {isa = PBXBuildFile; fileRef = 12E0994E185EFF20001DFF94 /* marker-theater.png */; };
+		12E0998A185EFF20001DFF94 /* marker-theater@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 12E0994F185EFF20001DFF94 /* marker-theater@2x.png */; };
+		12E0998B185EFF20001DFF94 /* marker-underground_railroad.png in Resources */ = {isa = PBXBuildFile; fileRef = 12E09950185EFF20001DFF94 /* marker-underground_railroad.png */; };
+		12E0998C185EFF20001DFF94 /* marker-underground_railroad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 12E09951185EFF20001DFF94 /* marker-underground_railroad@2x.png */; };
+		12E0998D185EFF20001DFF94 /* marker-university.png in Resources */ = {isa = PBXBuildFile; fileRef = 12E09952185EFF20001DFF94 /* marker-university.png */; };
+		12E0998E185EFF20001DFF94 /* marker-university@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 12E09953185EFF20001DFF94 /* marker-university@2x.png */; };
+		12E0998F185EFF20001DFF94 /* marker-zoo.png in Resources */ = {isa = PBXBuildFile; fileRef = 12E09954185EFF20001DFF94 /* marker-zoo.png */; };
+		12E09990185EFF20001DFF94 /* marker-zoo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 12E09955185EFF20001DFF94 /* marker-zoo@2x.png */; };
+		12E09991185EFF20001DFF94 /* bg-gradient.png in Resources */ = {isa = PBXBuildFile; fileRef = 12E09957185EFF20001DFF94 /* bg-gradient.png */; };
+		12E09992185EFF20001DFF94 /* btn-aroundme.png in Resources */ = {isa = PBXBuildFile; fileRef = 12E09958185EFF20001DFF94 /* btn-aroundme.png */; };
+		12E09993185EFF20001DFF94 /* btn-collections.png in Resources */ = {isa = PBXBuildFile; fileRef = 12E09959185EFF20001DFF94 /* btn-collections.png */; };
+		12E09994185EFF20001DFF94 /* btn-feed.png in Resources */ = {isa = PBXBuildFile; fileRef = 12E0995A185EFF20001DFF94 /* btn-feed.png */; };
+		12E09995185EFF20001DFF94 /* star_yellow.png in Resources */ = {isa = PBXBuildFile; fileRef = 12E0995B185EFF20001DFF94 /* star_yellow.png */; };
+		12E09996185EFF20001DFF94 /* star_grey.png in Resources */ = {isa = PBXBuildFile; fileRef = 12E0995C185EFF20001DFF94 /* star_grey.png */; };
+		12E09999185F07C8001DFF94 /* AddToCollectionOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E09998185F07C8001DFF94 /* AddToCollectionOverlay.m */; };
+		12E0999C185F1171001DFF94 /* add_to_collection_header.png in Resources */ = {isa = PBXBuildFile; fileRef = 12E0999B185F1171001DFF94 /* add_to_collection_header.png */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		12BCE50C185614340032F7E8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 12BCE4DE185614340032F7E8 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 12BCE4E5185614340032F7E8;
-			remoteInfo = "find-your-iowa";
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		122BD69F1859704F00065AC8 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		122BD6A01859704F00065AC8 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		122BD798185A24B900065AC8 /* FilterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilterViewController.h; sourceTree = "<group>"; };
+		122BD799185A24B900065AC8 /* FilterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilterViewController.m; sourceTree = "<group>"; };
+		122BD79B185A33D100065AC8 /* ContextMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContextMenuViewController.h; sourceTree = "<group>"; };
+		122BD79C185A33D100065AC8 /* ContextMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContextMenuViewController.m; sourceTree = "<group>"; };
+		124C8BB41858E80C00E2810E /* UIImage+Resize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Resize.h"; sourceTree = "<group>"; };
+		124C8BB51858E80C00E2810E /* UIImage+Resize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Resize.m"; sourceTree = "<group>"; };
+		124C8BB71858EAE600E2810E /* Location.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Location.h; path = "find-your-iowa/Location.h"; sourceTree = "<group>"; };
+		124C8BB81858EAE600E2810E /* Location.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Location.m; path = "find-your-iowa/Location.m"; sourceTree = "<group>"; };
+		124C8BBF1858EEF900E2810E /* MKAnnotationView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MKAnnotationView+WebCache.h"; sourceTree = "<group>"; };
+		124C8BC01858EEF900E2810E /* MKAnnotationView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MKAnnotationView+WebCache.m"; sourceTree = "<group>"; };
+		124C8BC11858EEF900E2810E /* NSData+GIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+GIF.h"; sourceTree = "<group>"; };
+		124C8BC21858EEF900E2810E /* NSData+GIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+GIF.m"; sourceTree = "<group>"; };
+		124C8BC31858EEF900E2810E /* SDImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDImageCache.h; sourceTree = "<group>"; };
+		124C8BC41858EEF900E2810E /* SDImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDImageCache.m; sourceTree = "<group>"; };
+		124C8BC51858EEF900E2810E /* SDWebImageCompat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageCompat.h; sourceTree = "<group>"; };
+		124C8BC61858EEF900E2810E /* SDWebImageCompat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageCompat.m; sourceTree = "<group>"; };
+		124C8BC71858EEF900E2810E /* SDWebImageDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDecoder.h; sourceTree = "<group>"; };
+		124C8BC81858EEF900E2810E /* SDWebImageDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDecoder.m; sourceTree = "<group>"; };
+		124C8BC91858EEF900E2810E /* SDWebImageDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDownloader.h; sourceTree = "<group>"; };
+		124C8BCA1858EEF900E2810E /* SDWebImageDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDownloader.m; sourceTree = "<group>"; };
+		124C8BCB1858EEF900E2810E /* SDWebImageDownloaderOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDownloaderOperation.h; sourceTree = "<group>"; };
+		124C8BCC1858EEF900E2810E /* SDWebImageDownloaderOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDownloaderOperation.m; sourceTree = "<group>"; };
+		124C8BCD1858EEF900E2810E /* SDWebImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageManager.h; sourceTree = "<group>"; };
+		124C8BCE1858EEF900E2810E /* SDWebImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageManager.m; sourceTree = "<group>"; };
+		124C8BCF1858EEF900E2810E /* SDWebImageOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageOperation.h; sourceTree = "<group>"; };
+		124C8BD01858EEF900E2810E /* SDWebImagePrefetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImagePrefetcher.h; sourceTree = "<group>"; };
+		124C8BD11858EEF900E2810E /* SDWebImagePrefetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImagePrefetcher.m; sourceTree = "<group>"; };
+		124C8BD21858EEF900E2810E /* UIButton+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+WebCache.h"; sourceTree = "<group>"; };
+		124C8BD31858EEF900E2810E /* UIButton+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+WebCache.m"; sourceTree = "<group>"; };
+		124C8BD41858EEF900E2810E /* UIImage+GIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+GIF.h"; sourceTree = "<group>"; };
+		124C8BD51858EEF900E2810E /* UIImage+GIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+GIF.m"; sourceTree = "<group>"; };
+		124C8BD61858EEF900E2810E /* UIImage+MultiFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+MultiFormat.h"; sourceTree = "<group>"; };
+		124C8BD71858EEF900E2810E /* UIImage+MultiFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+MultiFormat.m"; sourceTree = "<group>"; };
+		124C8BD81858EEF900E2810E /* UIImage+WebP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+WebP.h"; sourceTree = "<group>"; };
+		124C8BD91858EEF900E2810E /* UIImage+WebP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+WebP.m"; sourceTree = "<group>"; };
+		124C8BDA1858EEF900E2810E /* UIImageView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+WebCache.h"; sourceTree = "<group>"; };
+		124C8BDB1858EEF900E2810E /* UIImageView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+WebCache.m"; sourceTree = "<group>"; };
+		124C8BEA1858F9A000E2810E /* ImagePager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImagePager.h; sourceTree = "<group>"; };
+		124C8BEB1858F9A000E2810E /* ImagePager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImagePager.m; sourceTree = "<group>"; };
+		124C8BED1858FC9100E2810E /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		124C8BEE1858FC9100E2810E /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		124C8BF01859460A00E2810E /* Reveal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Reveal.framework; sourceTree = "<group>"; };
+		124C8BF21859645300E2810E /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		124C8BF31859645300E2810E /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		12BCE4E6185614340032F7E8 /* find-your-iowa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "find-your-iowa.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		12BCE4E9185614340032F7E8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		12BCE4EB185614340032F7E8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -45,21 +212,132 @@
 		12BCE4F3185614340032F7E8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		12BCE4F5185614340032F7E8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		12BCE4F7185614340032F7E8 /* find-your-iowa-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "find-your-iowa-Prefix.pch"; sourceTree = "<group>"; };
-		12BCE4F8185614340032F7E8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		12BCE4F9185614340032F7E8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		12BCE4F8185614340032F7E8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = "find-your-iowa/AppDelegate.h"; sourceTree = "<group>"; };
+		12BCE4F9185614340032F7E8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = "find-your-iowa/AppDelegate.m"; sourceTree = "<group>"; };
 		12BCE4FC185614340032F7E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		12BCE4FE185614340032F7E8 /* DiscoverViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DiscoverViewController.h; sourceTree = "<group>"; };
-		12BCE4FF185614340032F7E8 /* DiscoverViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DiscoverViewController.m; sourceTree = "<group>"; };
-		12BCE501185614340032F7E8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		12BCE507185614340032F7E8 /* find-your-iowaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "find-your-iowaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		12BCE4FE185614340032F7E8 /* FeedViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FeedViewController.h; sourceTree = "<group>"; };
+		12BCE4FF185614340032F7E8 /* FeedViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FeedViewController.m; sourceTree = "<group>"; };
+		12BCE501185614340032F7E8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "find-your-iowa/Images.xcassets"; sourceTree = "<group>"; };
 		12BCE508185614340032F7E8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		12BCE522185620850032F7E8 /* locations.db */ = {isa = PBXFileReference; lastKnownFileType = file; name = locations.db; path = data/locations.db; sourceTree = "<group>"; };
-		12BCE524185622910032F7E8 /* locations_sql.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = locations_sql.h; sourceTree = "<group>"; };
-		12BCE525185622C30032F7E8 /* location_sql.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = location_sql.m; sourceTree = "<group>"; };
-		12BCE527185626070032F7E8 /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
-		12BCE528185626070032F7E8 /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
-		12BCE52A185628250032F7E8 /* SDWebImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDWebImage.framework; path = "find-your-iowa/SDWebImage.framework"; sourceTree = "<group>"; };
+		12BCE527185626070032F7E8 /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Utils.h; path = "find-your-iowa/Utils.h"; sourceTree = "<group>"; };
+		12BCE528185626070032F7E8 /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Utils.m; path = "find-your-iowa/Utils.m"; sourceTree = "<group>"; };
 		12BCE52C18562F690032F7E8 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		12BCE52E1856366C0032F7E8 /* location_sql.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = location_sql.m; path = "find-your-iowa/location_sql.m"; sourceTree = "<group>"; };
+		12BCE52F1856366C0032F7E8 /* locations_sql.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = locations_sql.h; path = "find-your-iowa/locations_sql.h"; sourceTree = "<group>"; };
+		12D09E11185BA2AD005CDE82 /* marker-amphitheater.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "marker-amphitheater.png"; sourceTree = "<group>"; };
+		12D09E12185BA2AD005CDE82 /* marker-amphitheater@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "marker-amphitheater@2x.png"; sourceTree = "<group>"; };
+		12D09E13185BA2AD005CDE82 /* marker-art.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "marker-art.png"; sourceTree = "<group>"; };
+		12D09E14185BA2AD005CDE82 /* marker-art@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "marker-art@2x.png"; sourceTree = "<group>"; };
+		12D09E15185BA2AD005CDE82 /* marker-arts_council.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "marker-arts_council.png"; sourceTree = "<group>"; };
+		12D09E16185BA2AD005CDE82 /* marker-arts_council@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "marker-arts_council@2x.png"; sourceTree = "<group>"; };
+		12D09E17185BA2AD005CDE82 /* marker-barn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "marker-barn.png"; sourceTree = "<group>"; };
+		12D09E18185BA2AD005CDE82 /* marker-barn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "marker-barn@2x.png"; sourceTree = "<group>"; };
+		12D09E19185BA2AD005CDE82 /* marker-botany.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "marker-botany.png"; sourceTree = "<group>"; };
+		12D09E1A185BA2AD005CDE82 /* marker-botany@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "marker-botany@2x.png"; sourceTree = "<group>"; };
+		12D09E1B185BA2AD005CDE82 /* marker-cultural_district.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "marker-cultural_district.png"; sourceTree = "<group>"; };
+		12D09E1C185BA2AD005CDE82 /* marker-cultural_district@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "marker-cultural_district@2x.png"; sourceTree = "<group>"; };
+		12D09E1D185BA2AD005CDE82 /* marker-famous_iowan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "marker-famous_iowan.png"; sourceTree = "<group>"; };
+		12D09E1E185BA2AD005CDE82 /* marker-famous_iowan@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "marker-famous_iowan@2x.png"; sourceTree = "<group>"; };
+		12D09E1F185BA2AD005CDE82 /* marker-historic_site.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "marker-historic_site.png"; sourceTree = "<group>"; };
+		12D09E20185BA2AD005CDE82 /* marker-historic_site@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "marker-historic_site@2x.png"; sourceTree = "<group>"; };
+		12D09E21185BA2AD005CDE82 /* marker-historical_society.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "marker-historical_society.png"; sourceTree = "<group>"; };
+		12D09E22185BA2AD005CDE82 /* marker-historical_society@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "marker-historical_society@2x.png"; sourceTree = "<group>"; };
+		12D09E23185BA2AD005CDE82 /* marker-iowa_award.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "marker-iowa_award.png"; sourceTree = "<group>"; };
+		12D09E24185BA2AD005CDE82 /* marker-iowa_award@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "marker-iowa_award@2x.png"; sourceTree = "<group>"; };
+		12D09E25185BA2AD005CDE82 /* marker-iowa_great_place.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "marker-iowa_great_place.png"; sourceTree = "<group>"; };
+		12D09E26185BA2AD005CDE82 /* marker-iowa_great_place@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "marker-iowa_great_place@2x.png"; sourceTree = "<group>"; };
+		12D09E27185BA2AD005CDE82 /* marker-local_government.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "marker-local_government.png"; sourceTree = "<group>"; };
+		12D09E28185BA2AD005CDE82 /* marker-local_government@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "marker-local_government@2x.png"; sourceTree = "<group>"; };
+		12D09E29185BA2AD005CDE82 /* marker-local_landmark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "marker-local_landmark.png"; sourceTree = "<group>"; };
+		12D09E2A185BA2AD005CDE82 /* marker-local_landmark@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "marker-local_landmark@2x.png"; sourceTree = "<group>"; };
+		12D09E2B185BA2AD005CDE82 /* marker-medal_of_honor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "marker-medal_of_honor.png"; sourceTree = "<group>"; };
+		12D09E2C185BA2AD005CDE82 /* marker-medal_of_honor@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "marker-medal_of_honor@2x.png"; sourceTree = "<group>"; };
+		12D09E2D185BA2AD005CDE82 /* marker-movie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "marker-movie.png"; sourceTree = "<group>"; };
+		12D09E2E185BA2AD005CDE82 /* marker-movie@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "marker-movie@2x.png"; sourceTree = "<group>"; };
+		12D09E2F185BA2AD005CDE82 /* marker-museum.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "marker-museum.png"; sourceTree = "<group>"; };
+		12D09E30185BA2AD005CDE82 /* marker-museum@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "marker-museum@2x.png"; sourceTree = "<group>"; };
+		12D09E31185BA2AD005CDE82 /* marker-national_historic_landmark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "marker-national_historic_landmark.png"; sourceTree = "<group>"; };
+		12D09E32185BA2AD005CDE82 /* marker-national_historic_landmark@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "marker-national_historic_landmark@2x.png"; sourceTree = "<group>"; };
+		12D09E33185BA2AD005CDE82 /* marker-national_historical_register.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "marker-national_historical_register.png"; sourceTree = "<group>"; };
+		12D09E34185BA2AD005CDE82 /* marker-national_historical_register@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "marker-national_historical_register@2x.png"; sourceTree = "<group>"; };
+		12D09E35185BA2AD005CDE82 /* marker-performance.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "marker-performance.png"; sourceTree = "<group>"; };
+		12D09E36185BA2AD005CDE82 /* marker-performance@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "marker-performance@2x.png"; sourceTree = "<group>"; };
+		12D09E37185BA2AD005CDE82 /* marker-riverwalk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "marker-riverwalk.png"; sourceTree = "<group>"; };
+		12D09E38185BA2AD005CDE82 /* marker-riverwalk@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "marker-riverwalk@2x.png"; sourceTree = "<group>"; };
+		12D09E39185BA2AD005CDE82 /* marker-scenic_byway.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "marker-scenic_byway.png"; sourceTree = "<group>"; };
+		12D09E3A185BA2AD005CDE82 /* marker-scenic_byway@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "marker-scenic_byway@2x.png"; sourceTree = "<group>"; };
+		12D09E3B185BA2AD005CDE82 /* marker-science.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "marker-science.png"; sourceTree = "<group>"; };
+		12D09E3C185BA2AD005CDE82 /* marker-science@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "marker-science@2x.png"; sourceTree = "<group>"; };
+		12D09E3D185BA2AD005CDE82 /* marker-theater.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "marker-theater.png"; sourceTree = "<group>"; };
+		12D09E3E185BA2AD005CDE82 /* marker-theater@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "marker-theater@2x.png"; sourceTree = "<group>"; };
+		12D09E3F185BA2AD005CDE82 /* marker-underground_railroad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "marker-underground_railroad.png"; sourceTree = "<group>"; };
+		12D09E40185BA2AD005CDE82 /* marker-underground_railroad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "marker-underground_railroad@2x.png"; sourceTree = "<group>"; };
+		12D09E41185BA2AD005CDE82 /* marker-university.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "marker-university.png"; sourceTree = "<group>"; };
+		12D09E42185BA2AD005CDE82 /* marker-university@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "marker-university@2x.png"; sourceTree = "<group>"; };
+		12D09E43185BA2AD005CDE82 /* marker-zoo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "marker-zoo.png"; sourceTree = "<group>"; };
+		12D09E44185BA2AD005CDE82 /* marker-zoo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "marker-zoo@2x.png"; sourceTree = "<group>"; };
+		12E09922185EFF20001DFF94 /* marker-amphitheater.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "marker-amphitheater.png"; sourceTree = "<group>"; };
+		12E09923185EFF20001DFF94 /* marker-amphitheater@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "marker-amphitheater@2x.png"; sourceTree = "<group>"; };
+		12E09924185EFF20001DFF94 /* marker-art.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "marker-art.png"; sourceTree = "<group>"; };
+		12E09925185EFF20001DFF94 /* marker-art@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "marker-art@2x.png"; sourceTree = "<group>"; };
+		12E09926185EFF20001DFF94 /* marker-arts_council.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "marker-arts_council.png"; sourceTree = "<group>"; };
+		12E09927185EFF20001DFF94 /* marker-arts_council@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "marker-arts_council@2x.png"; sourceTree = "<group>"; };
+		12E09928185EFF20001DFF94 /* marker-barn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "marker-barn.png"; sourceTree = "<group>"; };
+		12E09929185EFF20001DFF94 /* marker-barn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "marker-barn@2x.png"; sourceTree = "<group>"; };
+		12E0992A185EFF20001DFF94 /* marker-botany.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "marker-botany.png"; sourceTree = "<group>"; };
+		12E0992B185EFF20001DFF94 /* marker-botany@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "marker-botany@2x.png"; sourceTree = "<group>"; };
+		12E0992C185EFF20001DFF94 /* marker-cultural_district.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "marker-cultural_district.png"; sourceTree = "<group>"; };
+		12E0992D185EFF20001DFF94 /* marker-cultural_district@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "marker-cultural_district@2x.png"; sourceTree = "<group>"; };
+		12E0992E185EFF20001DFF94 /* marker-famous_iowan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "marker-famous_iowan.png"; sourceTree = "<group>"; };
+		12E0992F185EFF20001DFF94 /* marker-famous_iowan@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "marker-famous_iowan@2x.png"; sourceTree = "<group>"; };
+		12E09930185EFF20001DFF94 /* marker-historic_site.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "marker-historic_site.png"; sourceTree = "<group>"; };
+		12E09931185EFF20001DFF94 /* marker-historic_site@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "marker-historic_site@2x.png"; sourceTree = "<group>"; };
+		12E09932185EFF20001DFF94 /* marker-historical_society.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "marker-historical_society.png"; sourceTree = "<group>"; };
+		12E09933185EFF20001DFF94 /* marker-historical_society@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "marker-historical_society@2x.png"; sourceTree = "<group>"; };
+		12E09934185EFF20001DFF94 /* marker-iowa_award.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "marker-iowa_award.png"; sourceTree = "<group>"; };
+		12E09935185EFF20001DFF94 /* marker-iowa_award@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "marker-iowa_award@2x.png"; sourceTree = "<group>"; };
+		12E09936185EFF20001DFF94 /* marker-iowa_great_place.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "marker-iowa_great_place.png"; sourceTree = "<group>"; };
+		12E09937185EFF20001DFF94 /* marker-iowa_great_place@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "marker-iowa_great_place@2x.png"; sourceTree = "<group>"; };
+		12E09938185EFF20001DFF94 /* marker-local_government.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "marker-local_government.png"; sourceTree = "<group>"; };
+		12E09939185EFF20001DFF94 /* marker-local_government@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "marker-local_government@2x.png"; sourceTree = "<group>"; };
+		12E0993A185EFF20001DFF94 /* marker-local_landmark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "marker-local_landmark.png"; sourceTree = "<group>"; };
+		12E0993B185EFF20001DFF94 /* marker-local_landmark@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "marker-local_landmark@2x.png"; sourceTree = "<group>"; };
+		12E0993C185EFF20001DFF94 /* marker-medal_of_honor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "marker-medal_of_honor.png"; sourceTree = "<group>"; };
+		12E0993D185EFF20001DFF94 /* marker-medal_of_honor@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "marker-medal_of_honor@2x.png"; sourceTree = "<group>"; };
+		12E0993E185EFF20001DFF94 /* marker-movie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "marker-movie.png"; sourceTree = "<group>"; };
+		12E0993F185EFF20001DFF94 /* marker-movie@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "marker-movie@2x.png"; sourceTree = "<group>"; };
+		12E09940185EFF20001DFF94 /* marker-museum.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "marker-museum.png"; sourceTree = "<group>"; };
+		12E09941185EFF20001DFF94 /* marker-museum@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "marker-museum@2x.png"; sourceTree = "<group>"; };
+		12E09942185EFF20001DFF94 /* marker-national_historic_landmark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "marker-national_historic_landmark.png"; sourceTree = "<group>"; };
+		12E09943185EFF20001DFF94 /* marker-national_historic_landmark@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "marker-national_historic_landmark@2x.png"; sourceTree = "<group>"; };
+		12E09944185EFF20001DFF94 /* marker-national_historical_register.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "marker-national_historical_register.png"; sourceTree = "<group>"; };
+		12E09945185EFF20001DFF94 /* marker-national_historical_register@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "marker-national_historical_register@2x.png"; sourceTree = "<group>"; };
+		12E09946185EFF20001DFF94 /* marker-performance.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "marker-performance.png"; sourceTree = "<group>"; };
+		12E09947185EFF20001DFF94 /* marker-performance@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "marker-performance@2x.png"; sourceTree = "<group>"; };
+		12E09948185EFF20001DFF94 /* marker-riverwalk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "marker-riverwalk.png"; sourceTree = "<group>"; };
+		12E09949185EFF20001DFF94 /* marker-riverwalk@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "marker-riverwalk@2x.png"; sourceTree = "<group>"; };
+		12E0994A185EFF20001DFF94 /* marker-scenic_byway.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "marker-scenic_byway.png"; sourceTree = "<group>"; };
+		12E0994B185EFF20001DFF94 /* marker-scenic_byway@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "marker-scenic_byway@2x.png"; sourceTree = "<group>"; };
+		12E0994C185EFF20001DFF94 /* marker-science.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "marker-science.png"; sourceTree = "<group>"; };
+		12E0994D185EFF20001DFF94 /* marker-science@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "marker-science@2x.png"; sourceTree = "<group>"; };
+		12E0994E185EFF20001DFF94 /* marker-theater.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "marker-theater.png"; sourceTree = "<group>"; };
+		12E0994F185EFF20001DFF94 /* marker-theater@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "marker-theater@2x.png"; sourceTree = "<group>"; };
+		12E09950185EFF20001DFF94 /* marker-underground_railroad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "marker-underground_railroad.png"; sourceTree = "<group>"; };
+		12E09951185EFF20001DFF94 /* marker-underground_railroad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "marker-underground_railroad@2x.png"; sourceTree = "<group>"; };
+		12E09952185EFF20001DFF94 /* marker-university.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "marker-university.png"; sourceTree = "<group>"; };
+		12E09953185EFF20001DFF94 /* marker-university@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "marker-university@2x.png"; sourceTree = "<group>"; };
+		12E09954185EFF20001DFF94 /* marker-zoo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "marker-zoo.png"; sourceTree = "<group>"; };
+		12E09955185EFF20001DFF94 /* marker-zoo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "marker-zoo@2x.png"; sourceTree = "<group>"; };
+		12E09957185EFF20001DFF94 /* bg-gradient.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg-gradient.png"; sourceTree = "<group>"; };
+		12E09958185EFF20001DFF94 /* btn-aroundme.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-aroundme.png"; sourceTree = "<group>"; };
+		12E09959185EFF20001DFF94 /* btn-collections.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-collections.png"; sourceTree = "<group>"; };
+		12E0995A185EFF20001DFF94 /* btn-feed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-feed.png"; sourceTree = "<group>"; };
+		12E0995B185EFF20001DFF94 /* star_yellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star_yellow.png; sourceTree = "<group>"; };
+		12E0995C185EFF20001DFF94 /* star_grey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star_grey.png; sourceTree = "<group>"; };
+		12E09997185F07C8001DFF94 /* AddToCollectionOverlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddToCollectionOverlay.h; sourceTree = "<group>"; };
+		12E09998185F07C8001DFF94 /* AddToCollectionOverlay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddToCollectionOverlay.m; sourceTree = "<group>"; };
+		12E0999B185F1171001DFF94 /* add_to_collection_header.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = add_to_collection_header.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,32 +347,72 @@
 			files = (
 				12BCE52D18562F690032F7E8 /* libsqlite3.dylib in Frameworks */,
 				12BCE4EC185614340032F7E8 /* CoreGraphics.framework in Frameworks */,
+				124C8BF11859460A00E2810E /* Reveal.framework in Frameworks */,
 				12BCE4EE185614340032F7E8 /* UIKit.framework in Frameworks */,
-				12BCE52B185628250032F7E8 /* SDWebImage.framework in Frameworks */,
 				12BCE4EA185614340032F7E8 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		12BCE504185614340032F7E8 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				12BCE509185614340032F7E8 /* XCTest.framework in Frameworks */,
-				12BCE50B185614340032F7E8 /* UIKit.framework in Frameworks */,
-				12BCE50A185614340032F7E8 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		124C8BBD1858EEF900E2810E /* contrib */ = {
+			isa = PBXGroup;
+			children = (
+				124C8BBE1858EEF900E2810E /* SDWebImage */,
+			);
+			name = contrib;
+			path = "find-your-iowa/contrib";
+			sourceTree = "<group>";
+		};
+		124C8BBE1858EEF900E2810E /* SDWebImage */ = {
+			isa = PBXGroup;
+			children = (
+				124C8BBF1858EEF900E2810E /* MKAnnotationView+WebCache.h */,
+				124C8BC01858EEF900E2810E /* MKAnnotationView+WebCache.m */,
+				124C8BC11858EEF900E2810E /* NSData+GIF.h */,
+				124C8BC21858EEF900E2810E /* NSData+GIF.m */,
+				124C8BC31858EEF900E2810E /* SDImageCache.h */,
+				124C8BC41858EEF900E2810E /* SDImageCache.m */,
+				124C8BC51858EEF900E2810E /* SDWebImageCompat.h */,
+				124C8BC61858EEF900E2810E /* SDWebImageCompat.m */,
+				124C8BC71858EEF900E2810E /* SDWebImageDecoder.h */,
+				124C8BC81858EEF900E2810E /* SDWebImageDecoder.m */,
+				124C8BC91858EEF900E2810E /* SDWebImageDownloader.h */,
+				124C8BCA1858EEF900E2810E /* SDWebImageDownloader.m */,
+				124C8BCB1858EEF900E2810E /* SDWebImageDownloaderOperation.h */,
+				124C8BCC1858EEF900E2810E /* SDWebImageDownloaderOperation.m */,
+				124C8BCD1858EEF900E2810E /* SDWebImageManager.h */,
+				124C8BCE1858EEF900E2810E /* SDWebImageManager.m */,
+				124C8BCF1858EEF900E2810E /* SDWebImageOperation.h */,
+				124C8BD01858EEF900E2810E /* SDWebImagePrefetcher.h */,
+				124C8BD11858EEF900E2810E /* SDWebImagePrefetcher.m */,
+				124C8BD21858EEF900E2810E /* UIButton+WebCache.h */,
+				124C8BD31858EEF900E2810E /* UIButton+WebCache.m */,
+				124C8BD41858EEF900E2810E /* UIImage+GIF.h */,
+				124C8BD51858EEF900E2810E /* UIImage+GIF.m */,
+				124C8BD61858EEF900E2810E /* UIImage+MultiFormat.h */,
+				124C8BD71858EEF900E2810E /* UIImage+MultiFormat.m */,
+				124C8BD81858EEF900E2810E /* UIImage+WebP.h */,
+				124C8BD91858EEF900E2810E /* UIImage+WebP.m */,
+				124C8BDA1858EEF900E2810E /* UIImageView+WebCache.h */,
+				124C8BDB1858EEF900E2810E /* UIImageView+WebCache.m */,
+			);
+			path = SDWebImage;
+			sourceTree = "<group>";
+		};
 		12BCE4DD185614340032F7E8 = {
 			isa = PBXGroup;
 			children = (
-				12BCE51E18561FCB0032F7E8 /* db */,
-				12BCE4EF185614340032F7E8 /* find-your-iowa */,
+				12BCE51E18561FCB0032F7E8 /* core */,
+				12BCE4EF185614340032F7E8 /* UI */,
 				12BCE4E8185614340032F7E8 /* Frameworks */,
 				12BCE4E7185614340032F7E8 /* Products */,
+				124C8BBD1858EEF900E2810E /* contrib */,
+				12D09E10185BA2AD005CDE82 /* markers */,
+				12BCE4F0185614340032F7E8 /* Supporting Files */,
+				12BCE501185614340032F7E8 /* Images.xcassets */,
+				12E0991E185EFF20001DFF94 /* images */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,7 +420,6 @@
 			isa = PBXGroup;
 			children = (
 				12BCE4E6185614340032F7E8 /* find-your-iowa.app */,
-				12BCE507185614340032F7E8 /* find-your-iowaTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -110,8 +427,8 @@
 		12BCE4E8185614340032F7E8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				124C8BF01859460A00E2810E /* Reveal.framework */,
 				12BCE52C18562F690032F7E8 /* libsqlite3.dylib */,
-				12BCE52A185628250032F7E8 /* SDWebImage.framework */,
 				12BCE4E9185614340032F7E8 /* Foundation.framework */,
 				12BCE4EB185614340032F7E8 /* CoreGraphics.framework */,
 				12BCE4ED185614340032F7E8 /* UIKit.framework */,
@@ -120,41 +437,225 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		12BCE4EF185614340032F7E8 /* find-your-iowa */ = {
+		12BCE4EF185614340032F7E8 /* UI */ = {
 			isa = PBXGroup;
 			children = (
 				12BCE4FB185614340032F7E8 /* Main.storyboard */,
-				12BCE4F8185614340032F7E8 /* AppDelegate.h */,
-				12BCE4F9185614340032F7E8 /* AppDelegate.m */,
-				12BCE4FE185614340032F7E8 /* DiscoverViewController.h */,
-				12BCE4FF185614340032F7E8 /* DiscoverViewController.m */,
-				12BCE501185614340032F7E8 /* Images.xcassets */,
-				12BCE4F0185614340032F7E8 /* Supporting Files */,
-				12BCE527185626070032F7E8 /* Utils.h */,
-				12BCE528185626070032F7E8 /* Utils.m */,
+				12E0999A185F0FFC001DFF94 /* overlays */,
+				12BCE4FE185614340032F7E8 /* FeedViewController.h */,
+				12BCE4FF185614340032F7E8 /* FeedViewController.m */,
+				124C8BEA1858F9A000E2810E /* ImagePager.h */,
+				124C8BEB1858F9A000E2810E /* ImagePager.m */,
+				124C8BED1858FC9100E2810E /* DetailViewController.h */,
+				124C8BEE1858FC9100E2810E /* DetailViewController.m */,
+				124C8BF21859645300E2810E /* ViewController.h */,
+				124C8BF31859645300E2810E /* ViewController.m */,
+				122BD69F1859704F00065AC8 /* MapViewController.h */,
+				122BD6A01859704F00065AC8 /* MapViewController.m */,
+				122BD798185A24B900065AC8 /* FilterViewController.h */,
+				122BD799185A24B900065AC8 /* FilterViewController.m */,
 			);
+			name = UI;
 			path = "find-your-iowa";
 			sourceTree = "<group>";
 		};
 		12BCE4F0185614340032F7E8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				124C8BB41858E80C00E2810E /* UIImage+Resize.h */,
+				124C8BB51858E80C00E2810E /* UIImage+Resize.m */,
 				12BCE4F1185614340032F7E8 /* find-your-iowa-Info.plist */,
 				12BCE4F2185614340032F7E8 /* InfoPlist.strings */,
 				12BCE4F5185614340032F7E8 /* main.m */,
 				12BCE4F7185614340032F7E8 /* find-your-iowa-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			path = "find-your-iowa";
 			sourceTree = "<group>";
 		};
-		12BCE51E18561FCB0032F7E8 /* db */ = {
+		12BCE51E18561FCB0032F7E8 /* core */ = {
 			isa = PBXGroup;
 			children = (
+				12BCE4F8185614340032F7E8 /* AppDelegate.h */,
+				12BCE4F9185614340032F7E8 /* AppDelegate.m */,
+				12BCE527185626070032F7E8 /* Utils.h */,
+				12BCE528185626070032F7E8 /* Utils.m */,
+				12BCE52E1856366C0032F7E8 /* location_sql.m */,
+				12BCE52F1856366C0032F7E8 /* locations_sql.h */,
 				12BCE522185620850032F7E8 /* locations.db */,
-				12BCE524185622910032F7E8 /* locations_sql.h */,
-				12BCE525185622C30032F7E8 /* location_sql.m */,
+				124C8BB71858EAE600E2810E /* Location.h */,
+				124C8BB81858EAE600E2810E /* Location.m */,
 			);
-			name = db;
+			name = core;
+			sourceTree = "<group>";
+		};
+		12D09E10185BA2AD005CDE82 /* markers */ = {
+			isa = PBXGroup;
+			children = (
+				12D09E11185BA2AD005CDE82 /* marker-amphitheater.png */,
+				12D09E12185BA2AD005CDE82 /* marker-amphitheater@2x.png */,
+				12D09E13185BA2AD005CDE82 /* marker-art.png */,
+				12D09E14185BA2AD005CDE82 /* marker-art@2x.png */,
+				12D09E15185BA2AD005CDE82 /* marker-arts_council.png */,
+				12D09E16185BA2AD005CDE82 /* marker-arts_council@2x.png */,
+				12D09E17185BA2AD005CDE82 /* marker-barn.png */,
+				12D09E18185BA2AD005CDE82 /* marker-barn@2x.png */,
+				12D09E19185BA2AD005CDE82 /* marker-botany.png */,
+				12D09E1A185BA2AD005CDE82 /* marker-botany@2x.png */,
+				12D09E1B185BA2AD005CDE82 /* marker-cultural_district.png */,
+				12D09E1C185BA2AD005CDE82 /* marker-cultural_district@2x.png */,
+				12D09E1D185BA2AD005CDE82 /* marker-famous_iowan.png */,
+				12D09E1E185BA2AD005CDE82 /* marker-famous_iowan@2x.png */,
+				12D09E1F185BA2AD005CDE82 /* marker-historic_site.png */,
+				12D09E20185BA2AD005CDE82 /* marker-historic_site@2x.png */,
+				12D09E21185BA2AD005CDE82 /* marker-historical_society.png */,
+				12D09E22185BA2AD005CDE82 /* marker-historical_society@2x.png */,
+				12D09E23185BA2AD005CDE82 /* marker-iowa_award.png */,
+				12D09E24185BA2AD005CDE82 /* marker-iowa_award@2x.png */,
+				12D09E25185BA2AD005CDE82 /* marker-iowa_great_place.png */,
+				12D09E26185BA2AD005CDE82 /* marker-iowa_great_place@2x.png */,
+				12D09E27185BA2AD005CDE82 /* marker-local_government.png */,
+				12D09E28185BA2AD005CDE82 /* marker-local_government@2x.png */,
+				12D09E29185BA2AD005CDE82 /* marker-local_landmark.png */,
+				12D09E2A185BA2AD005CDE82 /* marker-local_landmark@2x.png */,
+				12D09E2B185BA2AD005CDE82 /* marker-medal_of_honor.png */,
+				12D09E2C185BA2AD005CDE82 /* marker-medal_of_honor@2x.png */,
+				12D09E2D185BA2AD005CDE82 /* marker-movie.png */,
+				12D09E2E185BA2AD005CDE82 /* marker-movie@2x.png */,
+				12D09E2F185BA2AD005CDE82 /* marker-museum.png */,
+				12D09E30185BA2AD005CDE82 /* marker-museum@2x.png */,
+				12D09E31185BA2AD005CDE82 /* marker-national_historic_landmark.png */,
+				12D09E32185BA2AD005CDE82 /* marker-national_historic_landmark@2x.png */,
+				12D09E33185BA2AD005CDE82 /* marker-national_historical_register.png */,
+				12D09E34185BA2AD005CDE82 /* marker-national_historical_register@2x.png */,
+				12D09E35185BA2AD005CDE82 /* marker-performance.png */,
+				12D09E36185BA2AD005CDE82 /* marker-performance@2x.png */,
+				12D09E37185BA2AD005CDE82 /* marker-riverwalk.png */,
+				12D09E38185BA2AD005CDE82 /* marker-riverwalk@2x.png */,
+				12D09E39185BA2AD005CDE82 /* marker-scenic_byway.png */,
+				12D09E3A185BA2AD005CDE82 /* marker-scenic_byway@2x.png */,
+				12D09E3B185BA2AD005CDE82 /* marker-science.png */,
+				12D09E3C185BA2AD005CDE82 /* marker-science@2x.png */,
+				12D09E3D185BA2AD005CDE82 /* marker-theater.png */,
+				12D09E3E185BA2AD005CDE82 /* marker-theater@2x.png */,
+				12D09E3F185BA2AD005CDE82 /* marker-underground_railroad.png */,
+				12D09E40185BA2AD005CDE82 /* marker-underground_railroad@2x.png */,
+				12D09E41185BA2AD005CDE82 /* marker-university.png */,
+				12D09E42185BA2AD005CDE82 /* marker-university@2x.png */,
+				12D09E43185BA2AD005CDE82 /* marker-zoo.png */,
+				12D09E44185BA2AD005CDE82 /* marker-zoo@2x.png */,
+			);
+			name = markers;
+			path = images/markers;
+			sourceTree = "<group>";
+		};
+		12E0991E185EFF20001DFF94 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				12E0991F185EFF20001DFF94 /* filters */,
+				12E09920185EFF20001DFF94 /* locations */,
+				12E09921185EFF20001DFF94 /* markers */,
+				12E09956185EFF20001DFF94 /* UI */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		12E0991F185EFF20001DFF94 /* filters */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = filters;
+			sourceTree = "<group>";
+		};
+		12E09920185EFF20001DFF94 /* locations */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = locations;
+			sourceTree = "<group>";
+		};
+		12E09921185EFF20001DFF94 /* markers */ = {
+			isa = PBXGroup;
+			children = (
+				12E09922185EFF20001DFF94 /* marker-amphitheater.png */,
+				12E09923185EFF20001DFF94 /* marker-amphitheater@2x.png */,
+				12E09924185EFF20001DFF94 /* marker-art.png */,
+				12E09925185EFF20001DFF94 /* marker-art@2x.png */,
+				12E09926185EFF20001DFF94 /* marker-arts_council.png */,
+				12E09927185EFF20001DFF94 /* marker-arts_council@2x.png */,
+				12E09928185EFF20001DFF94 /* marker-barn.png */,
+				12E09929185EFF20001DFF94 /* marker-barn@2x.png */,
+				12E0992A185EFF20001DFF94 /* marker-botany.png */,
+				12E0992B185EFF20001DFF94 /* marker-botany@2x.png */,
+				12E0992C185EFF20001DFF94 /* marker-cultural_district.png */,
+				12E0992D185EFF20001DFF94 /* marker-cultural_district@2x.png */,
+				12E0992E185EFF20001DFF94 /* marker-famous_iowan.png */,
+				12E0992F185EFF20001DFF94 /* marker-famous_iowan@2x.png */,
+				12E09930185EFF20001DFF94 /* marker-historic_site.png */,
+				12E09931185EFF20001DFF94 /* marker-historic_site@2x.png */,
+				12E09932185EFF20001DFF94 /* marker-historical_society.png */,
+				12E09933185EFF20001DFF94 /* marker-historical_society@2x.png */,
+				12E09934185EFF20001DFF94 /* marker-iowa_award.png */,
+				12E09935185EFF20001DFF94 /* marker-iowa_award@2x.png */,
+				12E09936185EFF20001DFF94 /* marker-iowa_great_place.png */,
+				12E09937185EFF20001DFF94 /* marker-iowa_great_place@2x.png */,
+				12E09938185EFF20001DFF94 /* marker-local_government.png */,
+				12E09939185EFF20001DFF94 /* marker-local_government@2x.png */,
+				12E0993A185EFF20001DFF94 /* marker-local_landmark.png */,
+				12E0993B185EFF20001DFF94 /* marker-local_landmark@2x.png */,
+				12E0993C185EFF20001DFF94 /* marker-medal_of_honor.png */,
+				12E0993D185EFF20001DFF94 /* marker-medal_of_honor@2x.png */,
+				12E0993E185EFF20001DFF94 /* marker-movie.png */,
+				12E0993F185EFF20001DFF94 /* marker-movie@2x.png */,
+				12E09940185EFF20001DFF94 /* marker-museum.png */,
+				12E09941185EFF20001DFF94 /* marker-museum@2x.png */,
+				12E09942185EFF20001DFF94 /* marker-national_historic_landmark.png */,
+				12E09943185EFF20001DFF94 /* marker-national_historic_landmark@2x.png */,
+				12E09944185EFF20001DFF94 /* marker-national_historical_register.png */,
+				12E09945185EFF20001DFF94 /* marker-national_historical_register@2x.png */,
+				12E09946185EFF20001DFF94 /* marker-performance.png */,
+				12E09947185EFF20001DFF94 /* marker-performance@2x.png */,
+				12E09948185EFF20001DFF94 /* marker-riverwalk.png */,
+				12E09949185EFF20001DFF94 /* marker-riverwalk@2x.png */,
+				12E0994A185EFF20001DFF94 /* marker-scenic_byway.png */,
+				12E0994B185EFF20001DFF94 /* marker-scenic_byway@2x.png */,
+				12E0994C185EFF20001DFF94 /* marker-science.png */,
+				12E0994D185EFF20001DFF94 /* marker-science@2x.png */,
+				12E0994E185EFF20001DFF94 /* marker-theater.png */,
+				12E0994F185EFF20001DFF94 /* marker-theater@2x.png */,
+				12E09950185EFF20001DFF94 /* marker-underground_railroad.png */,
+				12E09951185EFF20001DFF94 /* marker-underground_railroad@2x.png */,
+				12E09952185EFF20001DFF94 /* marker-university.png */,
+				12E09953185EFF20001DFF94 /* marker-university@2x.png */,
+				12E09954185EFF20001DFF94 /* marker-zoo.png */,
+				12E09955185EFF20001DFF94 /* marker-zoo@2x.png */,
+			);
+			path = markers;
+			sourceTree = "<group>";
+		};
+		12E09956185EFF20001DFF94 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				12E0999B185F1171001DFF94 /* add_to_collection_header.png */,
+				12E09957185EFF20001DFF94 /* bg-gradient.png */,
+				12E09958185EFF20001DFF94 /* btn-aroundme.png */,
+				12E09959185EFF20001DFF94 /* btn-collections.png */,
+				12E0995A185EFF20001DFF94 /* btn-feed.png */,
+				12E0995B185EFF20001DFF94 /* star_yellow.png */,
+				12E0995C185EFF20001DFF94 /* star_grey.png */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		12E0999A185F0FFC001DFF94 /* overlays */ = {
+			isa = PBXGroup;
+			children = (
+				122BD79B185A33D100065AC8 /* ContextMenuViewController.h */,
+				122BD79C185A33D100065AC8 /* ContextMenuViewController.m */,
+				12E09997185F07C8001DFF94 /* AddToCollectionOverlay.h */,
+				12E09998185F07C8001DFF94 /* AddToCollectionOverlay.m */,
+			);
+			name = overlays;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,24 +678,6 @@
 			productReference = 12BCE4E6185614340032F7E8 /* find-your-iowa.app */;
 			productType = "com.apple.product-type.application";
 		};
-		12BCE506185614340032F7E8 /* find-your-iowaTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 12BCE51B185614340032F7E8 /* Build configuration list for PBXNativeTarget "find-your-iowaTests" */;
-			buildPhases = (
-				12BCE503185614340032F7E8 /* Sources */,
-				12BCE504185614340032F7E8 /* Frameworks */,
-				12BCE505185614340032F7E8 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				12BCE50D185614340032F7E8 /* PBXTargetDependency */,
-			);
-			name = "find-your-iowaTests";
-			productName = "find-your-iowaTests";
-			productReference = 12BCE507185614340032F7E8 /* find-your-iowaTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -206,9 +689,6 @@
 				TargetAttributes = {
 					12BCE4E5185614340032F7E8 = {
 						DevelopmentTeam = Q7ET952695;
-					};
-					12BCE506185614340032F7E8 = {
-						TestTargetID = 12BCE4E5185614340032F7E8;
 					};
 				};
 			};
@@ -226,7 +706,6 @@
 			projectRoot = "";
 			targets = (
 				12BCE4E5185614340032F7E8 /* find-your-iowa */,
-				12BCE506185614340032F7E8 /* find-your-iowaTests */,
 			);
 		};
 /* End PBXProject section */
@@ -236,17 +715,121 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12E09991185EFF20001DFF94 /* bg-gradient.png in Resources */,
+				12E09978185EFF20001DFF94 /* marker-medal_of_honor@2x.png in Resources */,
+				12E0996C185EFF20001DFF94 /* marker-historic_site@2x.png in Resources */,
+				12E0998E185EFF20001DFF94 /* marker-university@2x.png in Resources */,
+				12E09981185EFF20001DFF94 /* marker-performance.png in Resources */,
 				12BCE523185620850032F7E8 /* locations.db in Resources */,
+				12E09987185EFF20001DFF94 /* marker-science.png in Resources */,
+				12E0996B185EFF20001DFF94 /* marker-historic_site.png in Resources */,
+				12E09964185EFF20001DFF94 /* marker-barn@2x.png in Resources */,
+				12D09E6A185BA2AD005CDE82 /* marker-performance@2x.png in Resources */,
+				12D09E53185BA2AD005CDE82 /* marker-historic_site.png in Resources */,
+				12D09E75185BA2AD005CDE82 /* marker-university.png in Resources */,
+				12E0997D185EFF20001DFF94 /* marker-national_historic_landmark.png in Resources */,
+				12E09983185EFF20001DFF94 /* marker-riverwalk.png in Resources */,
+				12D09E54185BA2AD005CDE82 /* marker-historic_site@2x.png in Resources */,
+				12E0997B185EFF20001DFF94 /* marker-museum.png in Resources */,
+				12D09E56185BA2AD005CDE82 /* marker-historical_society@2x.png in Resources */,
+				12D09E68185BA2AD005CDE82 /* marker-national_historical_register@2x.png in Resources */,
+				12D09E70185BA2AD005CDE82 /* marker-science@2x.png in Resources */,
+				12E09986185EFF20001DFF94 /* marker-scenic_byway@2x.png in Resources */,
+				12D09E6D185BA2AD005CDE82 /* marker-scenic_byway.png in Resources */,
+				12D09E74185BA2AD005CDE82 /* marker-underground_railroad@2x.png in Resources */,
+				12D09E4E185BA2AD005CDE82 /* marker-botany@2x.png in Resources */,
+				12D09E50185BA2AD005CDE82 /* marker-cultural_district@2x.png in Resources */,
+				12E09960185EFF20001DFF94 /* marker-art@2x.png in Resources */,
+				12D09E47185BA2AD005CDE82 /* marker-art.png in Resources */,
+				12E09965185EFF20001DFF94 /* marker-botany.png in Resources */,
+				12D09E4A185BA2AD005CDE82 /* marker-arts_council@2x.png in Resources */,
+				12E09982185EFF20001DFF94 /* marker-performance@2x.png in Resources */,
+				12D09E63185BA2AD005CDE82 /* marker-museum.png in Resources */,
+				12E09990185EFF20001DFF94 /* marker-zoo@2x.png in Resources */,
+				12E09984185EFF20001DFF94 /* marker-riverwalk@2x.png in Resources */,
+				12D09E77185BA2AD005CDE82 /* marker-zoo.png in Resources */,
+				12D09E48185BA2AD005CDE82 /* marker-art@2x.png in Resources */,
+				12D09E73185BA2AD005CDE82 /* marker-underground_railroad.png in Resources */,
+				12D09E58185BA2AD005CDE82 /* marker-iowa_award@2x.png in Resources */,
+				12E09995185EFF20001DFF94 /* star_yellow.png in Resources */,
+				12E09973185EFF20001DFF94 /* marker-local_government.png in Resources */,
+				12E09992185EFF20001DFF94 /* btn-aroundme.png in Resources */,
+				12E09989185EFF20001DFF94 /* marker-theater.png in Resources */,
+				12E0996A185EFF20001DFF94 /* marker-famous_iowan@2x.png in Resources */,
+				12E09962185EFF20001DFF94 /* marker-arts_council@2x.png in Resources */,
+				12D09E46185BA2AD005CDE82 /* marker-amphitheater@2x.png in Resources */,
+				12D09E5B185BA2AD005CDE82 /* marker-local_government.png in Resources */,
+				12E0995F185EFF20001DFF94 /* marker-art.png in Resources */,
+				12D09E64185BA2AD005CDE82 /* marker-museum@2x.png in Resources */,
+				12E0995D185EFF20001DFF94 /* marker-amphitheater.png in Resources */,
+				12E0998B185EFF20001DFF94 /* marker-underground_railroad.png in Resources */,
+				12E0997E185EFF20001DFF94 /* marker-national_historic_landmark@2x.png in Resources */,
+				12D09E72185BA2AD005CDE82 /* marker-theater@2x.png in Resources */,
+				12D09E45185BA2AD005CDE82 /* marker-amphitheater.png in Resources */,
+				12E09976185EFF20001DFF94 /* marker-local_landmark@2x.png in Resources */,
+				12D09E78185BA2AD005CDE82 /* marker-zoo@2x.png in Resources */,
+				12D09E5F185BA2AD005CDE82 /* marker-medal_of_honor.png in Resources */,
+				12D09E4B185BA2AD005CDE82 /* marker-barn.png in Resources */,
+				12D09E5D185BA2AD005CDE82 /* marker-local_landmark.png in Resources */,
+				12D09E4F185BA2AD005CDE82 /* marker-cultural_district.png in Resources */,
 				12BCE502185614340032F7E8 /* Images.xcassets in Resources */,
+				12D09E71185BA2AD005CDE82 /* marker-theater.png in Resources */,
+				12E09966185EFF20001DFF94 /* marker-botany@2x.png in Resources */,
+				12D09E6F185BA2AD005CDE82 /* marker-science.png in Resources */,
+				12E09975185EFF20001DFF94 /* marker-local_landmark.png in Resources */,
+				12E09988185EFF20001DFF94 /* marker-science@2x.png in Resources */,
+				12E09980185EFF20001DFF94 /* marker-national_historical_register@2x.png in Resources */,
+				12D09E62185BA2AD005CDE82 /* marker-movie@2x.png in Resources */,
+				12D09E61185BA2AD005CDE82 /* marker-movie.png in Resources */,
+				12E0997F185EFF20001DFF94 /* marker-national_historical_register.png in Resources */,
+				12E09979185EFF20001DFF94 /* marker-movie.png in Resources */,
+				12D09E5C185BA2AD005CDE82 /* marker-local_government@2x.png in Resources */,
+				12E09994185EFF20001DFF94 /* btn-feed.png in Resources */,
+				12E09971185EFF20001DFF94 /* marker-iowa_great_place.png in Resources */,
+				12E09972185EFF20001DFF94 /* marker-iowa_great_place@2x.png in Resources */,
+				12E0996F185EFF20001DFF94 /* marker-iowa_award.png in Resources */,
+				12D09E4D185BA2AD005CDE82 /* marker-botany.png in Resources */,
+				12D09E69185BA2AD005CDE82 /* marker-performance.png in Resources */,
+				12E0998F185EFF20001DFF94 /* marker-zoo.png in Resources */,
+				12E0998A185EFF20001DFF94 /* marker-theater@2x.png in Resources */,
+				12E09968185EFF20001DFF94 /* marker-cultural_district@2x.png in Resources */,
+				12E0999C185F1171001DFF94 /* add_to_collection_header.png in Resources */,
+				12E09961185EFF20001DFF94 /* marker-arts_council.png in Resources */,
+				12D09E57185BA2AD005CDE82 /* marker-iowa_award.png in Resources */,
+				12E09977185EFF20001DFF94 /* marker-medal_of_honor.png in Resources */,
+				12E09967185EFF20001DFF94 /* marker-cultural_district.png in Resources */,
+				12D09E76185BA2AD005CDE82 /* marker-university@2x.png in Resources */,
+				12D09E6C185BA2AD005CDE82 /* marker-riverwalk@2x.png in Resources */,
+				12D09E4C185BA2AD005CDE82 /* marker-barn@2x.png in Resources */,
+				12E09996185EFF20001DFF94 /* star_grey.png in Resources */,
+				12D09E66185BA2AD005CDE82 /* marker-national_historic_landmark@2x.png in Resources */,
+				12E09969185EFF20001DFF94 /* marker-famous_iowan.png in Resources */,
+				12D09E6E185BA2AD005CDE82 /* marker-scenic_byway@2x.png in Resources */,
+				12D09E60185BA2AD005CDE82 /* marker-medal_of_honor@2x.png in Resources */,
+				12E0996E185EFF20001DFF94 /* marker-historical_society@2x.png in Resources */,
+				12D09E65185BA2AD005CDE82 /* marker-national_historic_landmark.png in Resources */,
+				12E0998D185EFF20001DFF94 /* marker-university.png in Resources */,
+				12D09E6B185BA2AD005CDE82 /* marker-riverwalk.png in Resources */,
 				12BCE4F4185614340032F7E8 /* InfoPlist.strings in Resources */,
+				12E09963185EFF20001DFF94 /* marker-barn.png in Resources */,
+				12E0995E185EFF20001DFF94 /* marker-amphitheater@2x.png in Resources */,
+				12E09993185EFF20001DFF94 /* btn-collections.png in Resources */,
+				12D09E5E185BA2AD005CDE82 /* marker-local_landmark@2x.png in Resources */,
 				12BCE4FD185614340032F7E8 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		12BCE505185614340032F7E8 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				12D09E59185BA2AD005CDE82 /* marker-iowa_great_place.png in Resources */,
+				12D09E52185BA2AD005CDE82 /* marker-famous_iowan@2x.png in Resources */,
+				12D09E5A185BA2AD005CDE82 /* marker-iowa_great_place@2x.png in Resources */,
+				12E09974185EFF20001DFF94 /* marker-local_government@2x.png in Resources */,
+				12E09970185EFF20001DFF94 /* marker-iowa_award@2x.png in Resources */,
+				12D09E55185BA2AD005CDE82 /* marker-historical_society.png in Resources */,
+				12E0998C185EFF20001DFF94 /* marker-underground_railroad@2x.png in Resources */,
+				12E0997A185EFF20001DFF94 /* marker-movie@2x.png in Resources */,
+				12D09E67185BA2AD005CDE82 /* marker-national_historical_register.png in Resources */,
+				12E09985185EFF20001DFF94 /* marker-scenic_byway.png in Resources */,
+				12E0997C185EFF20001DFF94 /* marker-museum@2x.png in Resources */,
+				12D09E49185BA2AD005CDE82 /* marker-arts_council.png in Resources */,
+				12D09E51185BA2AD005CDE82 /* marker-famous_iowan.png in Resources */,
+				12E0996D185EFF20001DFF94 /* marker-historical_society.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,30 +840,38 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				12BCE500185614340032F7E8 /* DiscoverViewController.m in Sources */,
+				124C8BE61858EEF900E2810E /* UIImage+GIF.m in Sources */,
+				12E09999185F07C8001DFF94 /* AddToCollectionOverlay.m in Sources */,
+				124C8BDF1858EEF900E2810E /* SDWebImageCompat.m in Sources */,
+				124C8BEF1858FC9100E2810E /* DetailViewController.m in Sources */,
+				124C8BE51858EEF900E2810E /* UIButton+WebCache.m in Sources */,
+				124C8BE71858EEF900E2810E /* UIImage+MultiFormat.m in Sources */,
+				124C8BE41858EEF900E2810E /* SDWebImagePrefetcher.m in Sources */,
+				12BCE500185614340032F7E8 /* FeedViewController.m in Sources */,
+				124C8BDC1858EEF900E2810E /* MKAnnotationView+WebCache.m in Sources */,
+				124C8BE81858EEF900E2810E /* UIImage+WebP.m in Sources */,
+				124C8BB91858EAE600E2810E /* Location.m in Sources */,
+				124C8BE21858EEF900E2810E /* SDWebImageDownloaderOperation.m in Sources */,
+				124C8BE01858EEF900E2810E /* SDWebImageDecoder.m in Sources */,
+				124C8BE91858EEF900E2810E /* UIImageView+WebCache.m in Sources */,
 				12BCE4FA185614340032F7E8 /* AppDelegate.m in Sources */,
+				124C8BDD1858EEF900E2810E /* NSData+GIF.m in Sources */,
+				124C8BE11858EEF900E2810E /* SDWebImageDownloader.m in Sources */,
+				122BD79A185A24B900065AC8 /* FilterViewController.m in Sources */,
+				124C8BEC1858F9A000E2810E /* ImagePager.m in Sources */,
+				12BCE5301856366C0032F7E8 /* location_sql.m in Sources */,
+				124C8BF41859645300E2810E /* ViewController.m in Sources */,
+				122BD79D185A33D100065AC8 /* ContextMenuViewController.m in Sources */,
 				12BCE4F6185614340032F7E8 /* main.m in Sources */,
 				12BCE529185626070032F7E8 /* Utils.m in Sources */,
-				12BCE526185622C30032F7E8 /* location_sql.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		12BCE503185614340032F7E8 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				124C8BE31858EEF900E2810E /* SDWebImageManager.m in Sources */,
+				122BD6A11859704F00065AC8 /* MapViewController.m in Sources */,
+				124C8BB61858E80C00E2810E /* UIImage+Resize.m in Sources */,
+				124C8BDE1858EEF900E2810E /* SDImageCache.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		12BCE50D185614340032F7E8 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 12BCE4E5185614340032F7E8 /* find-your-iowa */;
-			targetProxy = 12BCE50C185614340032F7E8 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		12BCE4F2185614340032F7E8 /* InfoPlist.strings */ = {
@@ -384,10 +975,16 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"/Users/tehansen/code/find-your-iowa/find-your-iowa",
+					"/Users/tehansen/code/find-your-iowa",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "find-your-iowa/find-your-iowa-Prefix.pch";
 				INFOPLIST_FILE = "find-your-iowa/find-your-iowa-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/tehansen/code/find-your-iowa/SDWebImage.framework/Versions/A",
+				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
@@ -404,55 +1001,19 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"/Users/tehansen/code/find-your-iowa/find-your-iowa",
+					"/Users/tehansen/code/find-your-iowa",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "find-your-iowa/find-your-iowa-Prefix.pch";
 				INFOPLIST_FILE = "find-your-iowa/find-your-iowa-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/tehansen/code/find-your-iowa/SDWebImage.framework/Versions/A",
+				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
-		12BCE51C185614340032F7E8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/find-your-iowa.app/find-your-iowa";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "find-your-iowa/find-your-iowa-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "find-your-iowaTests/find-your-iowaTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		12BCE51D185614340032F7E8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/find-your-iowa.app/find-your-iowa";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "find-your-iowa/find-your-iowa-Prefix.pch";
-				INFOPLIST_FILE = "find-your-iowaTests/find-your-iowaTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
 		};
@@ -473,15 +1034,6 @@
 			buildConfigurations = (
 				12BCE519185614340032F7E8 /* Debug */,
 				12BCE51A185614340032F7E8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		12BCE51B185614340032F7E8 /* Build configuration list for PBXNativeTarget "find-your-iowaTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				12BCE51C185614340032F7E8 /* Debug */,
-				12BCE51D185614340032F7E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
