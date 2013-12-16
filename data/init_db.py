@@ -120,17 +120,17 @@ def render_list_item_image(r):
     if len(r['images'][0]) == 0:
         return
 
-    #for img in r['images']:
-    fetch_image(r['images'][0], r)
+    for img in r['images']:
+        fetch_image(img, r)
 
 
 def process_img(fname, r):
     im = Image.open(fname)
     out = ImageOps.fit(im, (320,240), Image.ANTIALIAS)
     print "rendering thumnail for: %s" % fname
-    out.save("img/%s.jpg" % r['id'], "jpeg")
+    out.save("../images/locations/%s.jpg" % r['id'], "jpeg")
     out2 = ImageOps.fit(im, (800,600), Image.ANTIALIAS)
-    out2.save("img/%s-large.jpg" % r['id'], "jpeg")
+    out2.save("../images/locations/%s-large.jpg" % r['id'], "jpeg")
 
 
 
@@ -139,5 +139,5 @@ def render_thumnails():
         render_list_item_image(r)
 
 
-#render_thumnails()
-init_db()
+#init_db()
+render_thumnails()

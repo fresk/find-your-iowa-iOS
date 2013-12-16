@@ -60,6 +60,8 @@
         [self saveUserData];
     }
 
+    NSLog(@"\n\nUSER DATA: %@\n\n", self.userData);
+    
 }
 
 
@@ -67,6 +69,7 @@
 - (BOOL) saveUserData {
     NSString *docs_path = [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) lastObject];
     NSString* userData_fname = [docs_path stringByAppendingPathComponent:@"userData.plist"];
+    
     return[self.userData writeToFile:userData_fname atomically:TRUE];
 }
 

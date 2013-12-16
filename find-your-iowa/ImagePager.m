@@ -191,8 +191,8 @@
     
     mainScrollView.contentSize = CGSizeMake(innerScrollFrame.origin.x, mainScrollView.bounds.size.height);
     
-    closeFullscreenButton.backgroundColor = [UIColor colorWithWhite:1.0 alpha:1.0];
-    closeFullscreenButton.hidden = FALSE;
+    //closeFullscreenButton.backgroundColor = [UIColor colorWithWhite:1.0 alpha:1.0];
+    //closeFullscreenButton.hidden = FALSE;
     closeFullscreenButton.alpha = 1.0;
     backDrop.hidden = FALSE;
     backDrop.alpha = 1.0;

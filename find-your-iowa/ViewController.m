@@ -71,7 +71,7 @@
         [self.navigationController pushViewController:map_view animated:TRUE];
     }
     if (indexPath.row == 2){
-        UIViewController* feature_view =[sb instantiateViewControllerWithIdentifier:@"DiscoverView"];
+        UIViewController* feature_view =[sb instantiateViewControllerWithIdentifier:@"CollectionOverview"];
         [self.navigationController pushViewController:feature_view animated:TRUE];
         
     }

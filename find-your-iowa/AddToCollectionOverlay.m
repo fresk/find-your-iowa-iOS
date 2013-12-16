@@ -73,6 +73,17 @@
     
     NSLog(@"add %@ to %@ collection", location.name, cell.textLabel.text);
     FYIApp.userData[location.uid] = @"starred";
+    if (FYIApp.userData[cell.textLabel.text]){
+        NSMutableArray* collection_items = FYIApp.userData[cell.textLabel.text];
+        [collection_items addObject:location.uid];
+        FYIApp.userData[cell.textLabel.text] = collection_items;
+    }
+    else {
+        NSMutableArray* collection_items = [[NSMutableArray alloc] init];
+        [collection_items addObject:location.uid];
+        FYIApp.userData[cell.textLabel.text] = collection_items;
+    }
+    
     [FYIApp saveUserData];
     self.view.hidden = TRUE;
     

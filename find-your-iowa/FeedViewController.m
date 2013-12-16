@@ -119,7 +119,7 @@
     [cell.contentView addSubview: label2];
     
     UIButton* btn_favorite = [UIButton buttonWithType:UIButtonTypeCustom];
-    if (FYIApp.userData[location.uid] == @"starred"){
+    if ([FYIApp.userData[location.uid] isEqualToString:@"starred"]){
         [btn_favorite setImage:[UIImage imageNamed:@"star_yellow"] forState:UIControlStateNormal];
     }
     else{

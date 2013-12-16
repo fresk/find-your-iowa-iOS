@@ -77,7 +77,7 @@
     
     
     UIButton* btn_favorite = [UIButton buttonWithType:UIButtonTypeCustom];
-    if (FYIApp.userData[self.location.uid] == @"starred"){
+    if ([FYIApp.userData[self.location.uid] isEqualToString: @"starred"]){
         [btn_favorite setImage:[UIImage imageNamed:@"star_yellow"] forState:UIControlStateNormal];
     }
     else{
