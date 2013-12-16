@@ -15,7 +15,7 @@
 @end
 
 @implementation CollectionsViewController {
-    __weak IBOutlet UITableView *_tableView;
+    __strong IBOutlet UITableView *_tableView;
     NSArray* _collections;
 }
 
@@ -29,8 +29,13 @@
 }
 
 -(void)viewWillAppear:(BOOL)animated{
+    
+    
+     [_tableView deselectRowAtIndexPath:[_tableView indexPathForSelectedRow] animated:NO];
     [_tableView reloadData ];
+
 }
+
 
 
 
@@ -52,6 +57,7 @@
     UITableViewCell* cell = [_tableView.dataSource tableView:tableView cellForRowAtIndexPath:indexPath];
     NSLog(@"Collection: %@", cell.textLabel.text);
     
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
     
     UIStoryboard* sb = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
      SingleCollectionViewController *detail_view = [sb instantiateViewControllerWithIdentifier:@"SingleCollectionViewController"];

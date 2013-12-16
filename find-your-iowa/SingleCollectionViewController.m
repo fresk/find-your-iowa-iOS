@@ -15,7 +15,7 @@
 @end
 
 @implementation SingleCollectionViewController{
-    __weak IBOutlet UITableView *_tableView;
+    __strong IBOutlet UITableView *_tableView;
     NSArray* _items;
 }
 
@@ -29,6 +29,7 @@
 }
 
 -(void)viewWillAppear:(BOOL)animated{
+    [_tableView deselectRowAtIndexPath:[_tableView indexPathForSelectedRow] animated:NO];
     NSString* collection_name = objc_getAssociatedObject(self, "collection");
     _items = FYIApp.userData[collection_name];
     self.navigationItem.title = collection_name;
@@ -50,7 +51,7 @@
     
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"singlecollectioncell" forIndexPath:indexPath];
     cell.textLabel.text = loc.name;
-    objc_setAssociatedObject(cell, "location", loc, OBJC_ASSOCIATION_ASSIGN);
+    objc_setAssociatedObject(cell, "location", loc, OBJC_ASSOCIATION_RETAIN);
     return cell;
 }
 
@@ -58,7 +59,7 @@
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     //Location* location = objc_getAssociatedObject(self, "location");
     UITableViewCell* cell = [_tableView.dataSource tableView:tableView cellForRowAtIndexPath:indexPath];
-    NSLog(@"Collection: %@", cell.textLabel.text);
+    NSLog(@"Locations: %@", cell.textLabel.text);
     
     Location* location = objc_getAssociatedObject(cell, "location");
     UIStoryboard* sb = [UIStoryboard storyboardWithName:@"Main" bundle:nil];

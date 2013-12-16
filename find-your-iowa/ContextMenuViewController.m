@@ -110,9 +110,10 @@
     
     FeedViewController* parent = (FeedViewController*) self.parentViewController;
     [parent setResults: results];
+    NSString* title_name = [NSString stringWithFormat:@"%@ ▾",cell.textLabel.text ];
     UIButton * button = [[UIButton alloc]initWithFrame:CGRectZero];
     [button addTarget:parent action:@selector(headerTapped:) forControlEvents:UIControlEventTouchUpInside];
-    [button setTitle:cell.textLabel.text  forState:UIControlStateNormal];
+    [button setTitle:title_name  forState:UIControlStateNormal];
     [button setTitleColor:[UIColor colorWithRed:0 green:0 blue:1 alpha:1] forState:UIControlStateNormal];
     [button sizeToFit];
     parent.navigationItem.titleView = button;

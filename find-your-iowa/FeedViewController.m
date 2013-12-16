@@ -47,7 +47,7 @@
 
     UIButton * button = [[UIButton alloc]initWithFrame:CGRectZero];
     [button addTarget:self action:@selector(headerTapped:) forControlEvents:UIControlEventTouchUpInside];
-    [button setTitle:@"Featured" forState:UIControlStateNormal];
+    [button setTitle:@"Featured ▾" forState:UIControlStateNormal];
     [button setTitleColor:[UIColor colorWithRed:0 green:0 blue:1 alpha:1] forState:UIControlStateNormal];
     [button sizeToFit];
     self.navigationItem.titleView = button;
